@@ -1,0 +1,104 @@
+<main class="flex h-screen flex-col bg-neutral-950 text-neutral-100">
+  <header class="flex shrink-0 items-center gap-3 border-b border-neutral-800 px-6 py-4">
+    <!-- Many rows in, one answer out — the same story the audit counter tells. -->
+    <svg viewBox="0 0 32 32" class="h-9 w-9 shrink-0 text-neutral-100" fill="none" aria-hidden="true">
+      <g stroke="currentColor" stroke-width="3.2" stroke-linecap="round">
+        <line x1="6.4" y1="7" x2="25.6" y2="7" />
+        <line x1="9.8" y1="12.6" x2="22.2" y2="12.6" />
+        <line x1="13.2" y1="18.2" x2="18.8" y2="18.2" />
+      </g>
+      <circle cx="16" cy="24.6" r="3.2" fill="#34d399" />
+    </svg>
+    <div class="flex-1">
+      <h1 class="text-xl font-semibold tracking-tight">SiftIO</h1>
+      <p class="text-sm text-neutral-400">
+        Your data stays in the browser. Only the answers leave.
+      </p>
+    </div>
+
+    <div class="flex shrink-0 items-center gap-1">
+      <button
+        type="button"
+        class="rounded border px-2 py-1 text-[11px] transition-colors"
+        [class]="
+          settings.layout().leftOpen
+            ? 'border-neutral-700 text-neutral-300'
+            : 'border-neutral-800 text-neutral-500 hover:text-neutral-300'
+        "
+        (click)="toggle('left')"
+        [attr.aria-pressed]="settings.layout().leftOpen"
+      >
+        Datasets
+      </button>
+      <button
+        type="button"
+        class="rounded border px-2 py-1 text-[11px] transition-colors"
+        [class]="
+          settings.layout().rightOpen
+            ? 'border-neutral-700 text-neutral-300'
+            : 'border-neutral-800 text-neutral-500 hover:text-neutral-300'
+        "
+        (click)="toggle('right')"
+        [attr.aria-pressed]="settings.layout().rightOpen"
+      >
+        Activity
+      </button>
+    </div>
+  </header>
+
+  <div #grid class="grid min-h-0 flex-1" [style.grid-template-columns]="columns()">
+    <aside
+      class="overflow-y-auto border-neutral-800"
+      [class]="settings.layout().leftOpen ? 'border-r p-4' : 'overflow-hidden'"
+      data-pane="datasets"
+    >
+      @if (settings.layout().leftOpen) {
+        <app-datasets-pane />
+      }
+    </aside>
+
+    <div
+      class="cursor-col-resize touch-none transition-colors"
+      [class]="dragging() === 'left' ? 'bg-emerald-600' : 'bg-neutral-900 hover:bg-neutral-700'"
+      role="separator"
+      aria-orientation="vertical"
+      aria-label="Resize the datasets panel"
+      tabindex="0"
+      [attr.aria-valuenow]="settings.layout().left"
+      [attr.aria-valuemin]="min"
+      [attr.aria-valuemax]="max"
+      (pointerdown)="startDrag('left', $event)"
+      (keydown.arrowleft)="nudge('left', -24)"
+      (keydown.arrowright)="nudge('left', 24)"
+    ></div>
+
+    <section class="overflow-y-auto p-4" data-pane="viewport">
+      <app-viewport-pane />
+    </section>
+
+    <div
+      class="cursor-col-resize touch-none transition-colors"
+      [class]="dragging() === 'right' ? 'bg-emerald-600' : 'bg-neutral-900 hover:bg-neutral-700'"
+      role="separator"
+      aria-orientation="vertical"
+      aria-label="Resize the agent activity panel"
+      tabindex="0"
+      [attr.aria-valuenow]="settings.layout().right"
+      [attr.aria-valuemin]="min"
+      [attr.aria-valuemax]="max"
+      (pointerdown)="startDrag('right', $event)"
+      (keydown.arrowleft)="nudge('right', 24)"
+      (keydown.arrowright)="nudge('right', -24)"
+    ></div>
+
+    <aside
+      class="overflow-y-auto border-neutral-800"
+      [class]="settings.layout().rightOpen ? 'border-l p-4' : 'overflow-hidden'"
+      data-pane="activity"
+    >
+      @if (settings.layout().rightOpen) {
+        <app-activity-pane />
+      }
+    </aside>
+  </div>
+</main>

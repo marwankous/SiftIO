@@ -1,0 +1,58 @@
+[
+ {
+  "name": "Spotify",
+  "category": "music",
+  "monthly": 11.99,
+  "renews_on": "2025-01-14",
+  "active": true
+ },
+ {
+  "name": "Netflix",
+  "category": "video",
+  "monthly": 15.99,
+  "renews_on": "2025-01-03",
+  "active": true
+ },
+ {
+  "name": "Adobe Creative Cloud",
+  "category": "software",
+  "monthly": 51.98,
+  "renews_on": "2025-02-21",
+  "active": true
+ },
+ {
+  "name": "iCloud+",
+  "category": "storage",
+  "monthly": 2.99,
+  "renews_on": "2025-01-08",
+  "active": true
+ },
+ {
+  "name": "NYT",
+  "category": "news",
+  "monthly": 8,
+  "renews_on": "2025-03-02",
+  "active": false
+ },
+ {
+  "name": "PureGym",
+  "category": "fitness",
+  "monthly": 24.99,
+  "renews_on": "2025-01-01",
+  "active": true
+ },
+ {
+  "name": "Backblaze",
+  "category": "storage",
+  "monthly": 7,
+  "renews_on": "2025-04-11",
+  "active": true
+ },
+ {
+  "name": "Duolingo",
+  "category": "education",
+  "monthly": 12.99,
+  "renews_on": "2025-05-19",
+  "active": false
+ }
+]

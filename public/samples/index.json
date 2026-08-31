@@ -1,0 +1,161 @@
+{
+  "samples": [
+    {
+      "file": "transactions.csv",
+      "title": "Bank transactions",
+      "note": "A year of spending, including refunds as negative amounts.",
+      "roles": {
+        "id": "identifier",
+        "day": "timestamp",
+        "merchant": "label",
+        "category": "category",
+        "amt": "amount"
+      },
+      "rows": 941
+    },
+    {
+      "file": "workouts.csv",
+      "title": "Workouts",
+      "note": "Exercise sessions. Joins to the other daily sets on day.",
+      "roles": {
+        "day": "timestamp",
+        "kind": "category",
+        "minutes": "amount"
+      },
+      "rows": 186
+    },
+    {
+      "file": "sleep.csv",
+      "title": "Sleep",
+      "note": "Nightly hours and quality.",
+      "roles": {
+        "day": "timestamp",
+        "hours": "amount",
+        "quality": "category"
+      },
+      "rows": 333
+    },
+    {
+      "file": "steps.csv",
+      "title": "Daily steps",
+      "note": "Step and floor counts for every day of 2025.",
+      "roles": {
+        "day": "timestamp",
+        "steps": "amount"
+      },
+      "rows": 365
+    },
+    {
+      "file": "weight.csv",
+      "title": "Body weight",
+      "note": "Weekly readings, with some body-fat measurements missing.",
+      "roles": {
+        "day": "timestamp",
+        "kg": "amount"
+      },
+      "rows": 52
+    },
+    {
+      "file": "streaming.csv",
+      "title": "Music streaming",
+      "note": "Play history with a full timestamp and a skipped flag.",
+      "roles": {
+        "played_at": "timestamp",
+        "artist": "category",
+        "track": "label",
+        "ms_played": "amount"
+      },
+      "rows": 643
+    },
+    {
+      "file": "screen-time.csv",
+      "title": "Screen time",
+      "note": "Minutes and pickups per app per day.",
+      "roles": {
+        "day": "timestamp",
+        "app": "category",
+        "minutes": "amount"
+      },
+      "rows": 1001
+    },
+    {
+      "file": "commutes.csv",
+      "title": "Commutes",
+      "note": "Weekday journeys by mode, with delays.",
+      "roles": {
+        "day": "timestamp",
+        "mode": "category",
+        "minutes": "amount"
+      },
+      "rows": 261
+    },
+    {
+      "file": "groceries.csv",
+      "title": "Groceries",
+      "note": "Receipt lines with unicode names and quoted commas.",
+      "roles": {
+        "day": "timestamp",
+        "item": "label",
+        "total": "amount"
+      },
+      "rows": 162
+    },
+    {
+      "file": "emails.csv",
+      "title": "Email metadata",
+      "note": "Headers only. Subjects contain commas and quotes.",
+      "roles": {
+        "received_at": "timestamp",
+        "from_addr": "category",
+        "subject": "label",
+        "size_kb": "amount"
+      },
+      "rows": 415
+    },
+    {
+      "file": "subscriptions.json",
+      "title": "Subscriptions",
+      "note": "JSON. Recurring charges and renewal dates.",
+      "roles": {
+        "name": "label",
+        "category": "category",
+        "monthly": "amount",
+        "renews_on": "timestamp"
+      },
+      "rows": 8
+    },
+    {
+      "file": "heart-rate.json",
+      "title": "Heart rate",
+      "note": "JSON with timestamped readings by context.",
+      "roles": {
+        "measured_at": "timestamp",
+        "bpm": "amount",
+        "context": "category"
+      },
+      "rows": 720
+    },
+    {
+      "file": "2024-taxes.csv",
+      "title": "2024 taxes",
+      "note": "Income and deductions. Filename starts with a digit.",
+      "roles": {
+        "category": "category",
+        "amount": "amount"
+      },
+      "rows": 8
+    },
+    {
+      "file": "location-visits.csv",
+      "title": "Location visits",
+      "note": "Places visited, with coordinates.",
+      "roles": {
+        "day": "timestamp",
+        "place": "label",
+        "city": "category",
+        "minutes": "amount"
+      },
+      "rows": 83
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# SiftIO dev environment.
+#
+#   docker compose up                        # dev server on http://localhost:4200
+#   docker compose run --rm dev sh           # a shell, for scaffolding and npm/git-less chores
+#   docker compose run --rm dev npm test -- --run
+#
+# ponytail: no Dockerfile. The stock node image plus a named volume is the whole
+# environment. Add one only if we need chromium in here (Angular's vitest runner
+# defaults to jsdom, so today we do not).
+services:
+  dev:
+    image: node:24-alpine # v24.20.0 — clears Angular 22's ^24.15.0 floor, which the host's v24.11.1 does not
+    working_dir: /app
+    ports:
+      - "4200:4200"
+    volumes:
+      - .:/app
+      # Keep node_modules in a container volume: native binaries (esbuild) built
+      # for musl must not leak onto the Windows host, and bind-mounting thousands
+      # of small files is painfully slow on Windows.
+      - node_modules:/app/node_modules
+    # --poll because inotify events do not cross a Windows bind mount; without it
+    # the dev server never rebuilds on save.
+    command: sh -c "npm install && npx ng serve --host 0.0.0.0 --poll 2000"
+
+volumes:
+  node_modules:

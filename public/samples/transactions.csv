@@ -1,0 +1,942 @@
+id,day,merchant,category,amt
+1,2025-01-01,Pret A Manger,food,17.33
+2,2025-01-01,Boots,health,11.62
+3,2025-01-01,Sainsbury’s,groceries,44.93
+4,2025-01-02,Nando’s,food,26.65
+5,2025-01-02,Uniqlo,shopping,-49.4
+6,2025-01-02,Uniqlo,shopping,101.65
+7,2025-01-02,Amazon,shopping,21.7
+8,2025-01-03,Sainsbury’s,groceries,43.87
+9,2025-01-03,Tesco,groceries,47.17
+10,2025-01-04,Sainsbury’s,groceries,47.75
+11,2025-01-05,Spotify,subscriptions,5.47
+12,2025-01-05,PureGym,health,55.76
+13,2025-01-06,Nando’s,food,15.93
+14,2025-01-06,Pret A Manger,food,32.27
+15,2025-01-07,Uber,transport,8.54
+16,2025-01-07,Netflix,subscriptions,9.23
+17,2025-01-07,Tesco,groceries,69.17
+18,2025-01-07,Uber,transport,-64.05
+19,2025-01-08,Sainsbury’s,groceries,52.58
+20,2025-01-09,Amazon,shopping,87.55
+21,2025-01-10,TfL Oyster,transport,20.69
+22,2025-01-10,Spotify,subscriptions,6.12
+23,2025-01-11,Sainsbury’s,groceries,60.26
+24,2025-01-11,PureGym,health,-42.71
+25,2025-01-11,Nando’s,food,29.72
+26,2025-01-11,Trainline,transport,15.56
+27,2025-01-12,Uniqlo,shopping,65.99
+28,2025-01-12,Spotify,subscriptions,16.68
+29,2025-01-13,Trainline,transport,7.26
+30,2025-01-13,Uber,transport,4.39
+31,2025-01-14,Pret A Manger,food,27.23
+32,2025-01-14,Pret A Manger,food,11.32
+33,2025-01-15,TfL Oyster,transport,7.88
+34,2025-01-16,Boots,health,31.66
+35,2025-01-16,Amazon,shopping,47.46
+36,2025-01-16,Trainline,transport,16.33
+37,2025-01-17,Netflix,subscriptions,12.29
+38,2025-01-17,Amazon,shopping,21.41
+39,2025-01-18,TfL Oyster,transport,13.49
+40,2025-01-19,Sainsbury’s,groceries,53.3
+41,2025-01-19,PureGym,health,-69.47
+42,2025-01-19,PureGym,health,37.73
+43,2025-01-20,Amazon,shopping,85.86
+44,2025-01-21,Tesco,groceries,69.42
+45,2025-01-21,Spotify,subscriptions,17.24
+46,2025-01-22,Trainline,transport,8.56
+47,2025-01-22,Uber,transport,5.73
+48,2025-01-23,Sainsbury’s,groceries,31.12
+49,2025-01-23,Sainsbury’s,groceries,40.04
+50,2025-01-23,Uber,transport,6.21
+51,2025-01-23,Uniqlo,shopping,86.07
+52,2025-01-24,Sainsbury’s,groceries,60.69
+53,2025-01-25,Amazon,shopping,76.86
+54,2025-01-26,PureGym,health,34.33
+55,2025-01-26,Pret A Manger,food,30.74
+56,2025-01-26,Spotify,subscriptions,17.52
+57,2025-01-27,Sainsbury’s,groceries,49.26
+58,2025-01-28,Netflix,subscriptions,8.08
+59,2025-01-28,Nando’s,food,13.85
+60,2025-01-28,Boots,health,37.22
+61,2025-01-29,Nando’s,food,27.54
+62,2025-01-30,Uniqlo,shopping,33.92
+63,2025-01-30,Amazon,shopping,35.95
+64,2025-01-30,Tesco,groceries,30.35
+65,2025-01-30,TfL Oyster,transport,17.51
+66,2025-01-31,Amazon,shopping,97.37
+67,2025-01-31,Uniqlo,shopping,53.3
+68,2025-01-31,PureGym,health,36.77
+69,2025-01-31,Netflix,subscriptions,11.13
+70,2025-02-01,Sainsbury’s,groceries,62.95
+71,2025-02-01,Sainsbury’s,groceries,50.05
+72,2025-02-01,Nando’s,food,8.53
+73,2025-02-02,Shell,transport,20.39
+74,2025-02-02,Uber,transport,14.67
+75,2025-02-02,Amazon,shopping,78.61
+76,2025-02-03,Sainsbury’s,groceries,75.26
+77,2025-02-03,Boots,health,17.72
+78,2025-02-04,Trainline,transport,20.74
+79,2025-02-04,Uber,transport,7.08
+80,2025-02-04,Shell,transport,7.77
+81,2025-02-05,Amazon,shopping,30.99
+82,2025-02-06,PureGym,health,40.14
+83,2025-02-06,Boots,health,32.31
+84,2025-02-06,Spotify,subscriptions,8.02
+85,2025-02-06,PureGym,health,46.51
+86,2025-02-07,Trainline,transport,19.25
+87,2025-02-07,Pret A Manger,food,8.63
+88,2025-02-08,Amazon,shopping,82.65
+89,2025-02-08,Uniqlo,shopping,40.28
+90,2025-02-08,Deliveroo,food,22.5
+91,2025-02-08,Uber,transport,9.83
+92,2025-02-09,Sainsbury’s,groceries,40.5
+93,2025-02-10,TfL Oyster,transport,15.16
+94,2025-02-10,Sainsbury’s,groceries,45.08
+95,2025-02-10,Deliveroo,food,34
+96,2025-02-10,Sainsbury’s,groceries,32.75
+97,2025-02-11,Boots,health,49.46
+98,2025-02-11,Trainline,transport,5.83
+99,2025-02-12,Pret A Manger,food,10.99
+100,2025-02-12,Shell,transport,6.43
+101,2025-02-12,Trainline,transport,11.19
+102,2025-02-12,Spotify,subscriptions,18
+103,2025-02-13,Deliveroo,food,12.93
+104,2025-02-14,Amazon,shopping,43.61
+105,2025-02-15,Deliveroo,food,7.43
+106,2025-02-15,Netflix,subscriptions,6.3
+107,2025-02-16,Uniqlo,shopping,61.4
+108,2025-02-16,Deliveroo,food,16.01
+109,2025-02-16,Nando’s,food,11.99
+110,2025-02-17,Uber,transport,4.77
+111,2025-02-17,Boots,health,48.35
+112,2025-02-18,Pret A Manger,food,32.4
+113,2025-02-18,Pret A Manger,food,30.46
+114,2025-02-18,Spotify,subscriptions,6.18
+115,2025-02-19,Trainline,transport,22.47
+116,2025-02-19,TfL Oyster,transport,4.86
+117,2025-02-19,PureGym,health,-64.63
+118,2025-02-20,Netflix,subscriptions,17.53
+119,2025-02-20,Tesco,groceries,26.24
+120,2025-02-20,Nando’s,food,34.15
+121,2025-02-21,Nando’s,food,9.3
+122,2025-02-21,Trainline,transport,4.57
+123,2025-02-22,Shell,transport,17.54
+124,2025-02-22,Netflix,subscriptions,11.58
+125,2025-02-22,Tesco,groceries,35.88
+126,2025-02-22,Netflix,subscriptions,12.24
+127,2025-02-23,Spotify,subscriptions,20.8
+128,2025-02-23,Pret A Manger,food,18.57
+129,2025-02-23,Uniqlo,shopping,47.63
+130,2025-02-24,Shell,transport,8.27
+131,2025-02-24,Sainsbury’s,groceries,71.83
+132,2025-02-24,Uniqlo,shopping,58.38
+133,2025-02-24,Boots,health,46.22
+134,2025-02-25,Trainline,transport,11.85
+135,2025-02-25,Boots,health,40.71
+136,2025-02-26,Pret A Manger,food,22.81
+137,2025-02-26,Uber,transport,4.8
+138,2025-02-26,Pret A Manger,food,26.29
+139,2025-02-26,Trainline,transport,5.13
+140,2025-02-27,Spotify,subscriptions,6.15
+141,2025-02-27,Pret A Manger,food,30.99
+142,2025-02-28,Deliveroo,food,21.63
+143,2025-02-28,TfL Oyster,transport,12.13
+144,2025-02-28,Spotify,subscriptions,5.2
+145,2025-03-01,Tesco,groceries,78.87
+146,2025-03-01,PureGym,health,49.25
+147,2025-03-02,Amazon,shopping,38.39
+148,2025-03-02,Deliveroo,food,17.08
+149,2025-03-03,TfL Oyster,transport,17.1
+150,2025-03-03,Uber,transport,14.12
+151,2025-03-03,Amazon,shopping,98.86
+152,2025-03-03,Uber,transport,6.64
+153,2025-03-04,Uniqlo,shopping,30.16
+154,2025-03-04,Uber,transport,13.58
+155,2025-03-04,Sainsbury’s,groceries,-8.47
+156,2025-03-05,Uber,transport,11.86
+157,2025-03-06,Uniqlo,shopping,100.97
+158,2025-03-06,Shell,transport,11.07
+159,2025-03-06,Deliveroo,food,33.67
+160,2025-03-07,Uniqlo,shopping,73.82
+161,2025-03-08,Pret A Manger,food,13.08
+162,2025-03-08,Sainsbury’s,groceries,55.07
+163,2025-03-08,Amazon,shopping,47.36
+164,2025-03-08,Amazon,shopping,47.12
+165,2025-03-09,Uniqlo,shopping,38.25
+166,2025-03-09,Netflix,subscriptions,12.19
+167,2025-03-09,Nando’s,food,10.87
+168,2025-03-09,Sainsbury’s,groceries,29.09
+169,2025-03-10,Tesco,groceries,73.22
+170,2025-03-11,Spotify,subscriptions,18.1
+171,2025-03-12,Spotify,subscriptions,6.41
+172,2025-03-12,Amazon,shopping,39.68
+173,2025-03-12,Uniqlo,shopping,70.41
+174,2025-03-13,Shell,transport,15.98
+175,2025-03-13,Spotify,subscriptions,9.32
+176,2025-03-13,Uniqlo,shopping,36.55
+177,2025-03-14,TfL Oyster,transport,14.34
+178,2025-03-15,Uber,transport,7.49
+179,2025-03-15,Uber,transport,15.06
+180,2025-03-15,Trainline,transport,8.51
+181,2025-03-15,Tesco,groceries,41.82
+182,2025-03-16,Tesco,groceries,61.89
+183,2025-03-17,Tesco,groceries,54.57
+184,2025-03-17,TfL Oyster,transport,14.73
+185,2025-03-17,Spotify,subscriptions,14.9
+186,2025-03-18,Boots,health,26.42
+187,2025-03-18,Netflix,subscriptions,18.62
+188,2025-03-19,Trainline,transport,8.52
+189,2025-03-19,Uber,transport,22.41
+190,2025-03-19,Trainline,transport,17.54
+191,2025-03-20,Boots,health,43.16
+192,2025-03-20,Uber,transport,6.03
+193,2025-03-20,Boots,health,18.26
+194,2025-03-20,Trainline,transport,6.04
+195,2025-03-21,Shell,transport,4.87
+196,2025-03-22,Boots,health,22.83
+197,2025-03-22,Nando’s,food,20.98
+198,2025-03-22,Nando’s,food,17.81
+199,2025-03-23,Tesco,groceries,18.56
+200,2025-03-23,Netflix,subscriptions,8.9
+201,2025-03-24,Pret A Manger,food,26.03
+202,2025-03-24,TfL Oyster,transport,-60.57
+203,2025-03-24,Amazon,shopping,-58.84
+204,2025-03-25,Netflix,subscriptions,11.51
+205,2025-03-26,Amazon,shopping,94.62
+206,2025-03-26,Shell,transport,22.6
+207,2025-03-26,Netflix,subscriptions,11.03
+208,2025-03-26,Boots,health,39.33
+209,2025-03-27,Pret A Manger,food,12.79
+210,2025-03-28,Amazon,shopping,60.3
+211,2025-03-28,Sainsbury’s,groceries,-29.32
+212,2025-03-29,Nando’s,food,23.76
+213,2025-03-30,PureGym,health,35.34
+214,2025-03-30,Spotify,subscriptions,12.46
+215,2025-03-30,Netflix,subscriptions,13.1
+216,2025-03-31,Sainsbury’s,groceries,25.24
+217,2025-03-31,Uniqlo,shopping,88.54
+218,2025-03-31,Boots,health,18.88
+219,2025-03-31,Uber,transport,13.53
+220,2025-04-01,Pret A Manger,food,24.47
+221,2025-04-01,TfL Oyster,transport,14.89
+222,2025-04-01,Amazon,shopping,73.22
+223,2025-04-01,Pret A Manger,food,31.05
+224,2025-04-02,Shell,transport,5.18
+225,2025-04-03,Shell,transport,16.2
+226,2025-04-03,Trainline,transport,16.05
+227,2025-04-03,Netflix,subscriptions,19.63
+228,2025-04-04,Boots,health,47.75
+229,2025-04-05,PureGym,health,54.65
+230,2025-04-05,TfL Oyster,transport,21.75
+231,2025-04-05,Nando’s,food,21.25
+232,2025-04-05,Sainsbury’s,groceries,58.49
+233,2025-04-06,Amazon,shopping,60.19
+234,2025-04-06,Spotify,subscriptions,18.53
+235,2025-04-07,Sainsbury’s,groceries,46.31
+236,2025-04-07,Pret A Manger,food,33.4
+237,2025-04-07,Shell,transport,17.09
+238,2025-04-07,Sainsbury’s,groceries,43.1
+239,2025-04-08,Amazon,shopping,62.51
+240,2025-04-08,PureGym,health,31.91
+241,2025-04-08,Pret A Manger,food,19.1
+242,2025-04-08,Netflix,subscriptions,-82.99
+243,2025-04-09,Nando’s,food,28.89
+244,2025-04-10,Deliveroo,food,10.75
+245,2025-04-10,Amazon,shopping,60.14
+246,2025-04-10,Trainline,transport,18.56
+247,2025-04-11,Netflix,subscriptions,12.14
+248,2025-04-12,Netflix,subscriptions,18.54
+249,2025-04-12,Amazon,shopping,40.81
+250,2025-04-12,Uber,transport,15.14
+251,2025-04-13,TfL Oyster,transport,12.17
+252,2025-04-13,Shell,transport,10.3
+253,2025-04-14,Tesco,groceries,-60.96
+254,2025-04-14,Shell,transport,22.58
+255,2025-04-14,Nando’s,food,23.33
+256,2025-04-15,Spotify,subscriptions,20.75
+257,2025-04-16,Spotify,subscriptions,18.35
+258,2025-04-16,Pret A Manger,food,13.63
+259,2025-04-16,Uniqlo,shopping,65.87
+260,2025-04-16,Pret A Manger,food,20.08
+261,2025-04-17,Pret A Manger,food,29.03
+262,2025-04-17,Tesco,groceries,-6.68
+263,2025-04-18,Deliveroo,food,23.32
+264,2025-04-18,TfL Oyster,transport,12.27
+265,2025-04-18,TfL Oyster,transport,11.19
+266,2025-04-19,Deliveroo,food,29.97
+267,2025-04-19,Deliveroo,food,30.88
+268,2025-04-20,Uber,transport,7.79
+269,2025-04-20,Sainsbury’s,groceries,64.67
+270,2025-04-21,Spotify,subscriptions,-72.44
+271,2025-04-22,Netflix,subscriptions,14.14
+272,2025-04-22,Amazon,shopping,75.87
+273,2025-04-22,Spotify,subscriptions,7.72
+274,2025-04-22,Nando’s,food,33.21
+275,2025-04-23,Netflix,subscriptions,-37.98
+276,2025-04-23,Shell,transport,20.09
+277,2025-04-24,Deliveroo,food,10.61
+278,2025-04-24,Amazon,shopping,23.26
+279,2025-04-24,TfL Oyster,transport,22.39
+280,2025-04-24,Amazon,shopping,61.56
+281,2025-04-25,Shell,transport,21.88
+282,2025-04-25,Tesco,groceries,24.41
+283,2025-04-25,TfL Oyster,transport,8.58
+284,2025-04-25,Trainline,transport,7.8
+285,2025-04-26,Trainline,transport,20.39
+286,2025-04-26,Boots,health,43.33
+287,2025-04-26,PureGym,health,27.26
+288,2025-04-27,Pret A Manger,food,23.3
+289,2025-04-28,Uber,transport,7.53
+290,2025-04-28,Amazon,shopping,44.17
+291,2025-04-28,TfL Oyster,transport,6.5
+292,2025-04-28,Deliveroo,food,18.75
+293,2025-04-29,Deliveroo,food,25.38
+294,2025-04-29,Uber,transport,9.58
+295,2025-04-30,Boots,health,13.9
+296,2025-04-30,Deliveroo,food,13.22
+297,2025-04-30,PureGym,health,52.01
+298,2025-04-30,Sainsbury’s,groceries,71.3
+299,2025-05-01,Uniqlo,shopping,28.96
+300,2025-05-01,Tesco,groceries,34.2
+301,2025-05-02,TfL Oyster,transport,6.24
+302,2025-05-02,PureGym,health,16.55
+303,2025-05-02,Spotify,subscriptions,17.68
+304,2025-05-03,Uber,transport,7.33
+305,2025-05-04,Boots,health,15.71
+306,2025-05-04,Sainsbury’s,groceries,16.88
+307,2025-05-04,Uber,transport,8.15
+308,2025-05-04,Deliveroo,food,33.21
+309,2025-05-05,Nando’s,food,31.09
+310,2025-05-05,Boots,health,26.31
+311,2025-05-05,Deliveroo,food,30.92
+312,2025-05-06,Amazon,shopping,100.84
+313,2025-05-07,Tesco,groceries,28.22
+314,2025-05-08,Uniqlo,shopping,-13.73
+315,2025-05-08,Pret A Manger,food,-25.7
+316,2025-05-09,Boots,health,-20.54
+317,2025-05-09,Netflix,subscriptions,6.77
+318,2025-05-09,Uniqlo,shopping,66.39
+319,2025-05-09,Sainsbury’s,groceries,23.38
+320,2025-05-10,Uber,transport,9.4
+321,2025-05-10,Sainsbury’s,groceries,18.94
+322,2025-05-10,Trainline,transport,15.56
+323,2025-05-11,Nando’s,food,25.95
+324,2025-05-11,Uniqlo,shopping,83.87
+325,2025-05-11,Boots,health,24.89
+326,2025-05-11,Uber,transport,9.14
+327,2025-05-12,Uber,transport,6.66
+328,2025-05-13,Boots,health,-61.13
+329,2025-05-13,TfL Oyster,transport,12.05
+330,2025-05-14,Trainline,transport,20.28
+331,2025-05-14,Tesco,groceries,68.3
+332,2025-05-14,TfL Oyster,transport,16.59
+333,2025-05-14,Tesco,groceries,74.28
+334,2025-05-15,Tesco,groceries,28.65
+335,2025-05-15,Pret A Manger,food,30.04
+336,2025-05-15,Spotify,subscriptions,5.78
+337,2025-05-15,Deliveroo,food,27.92
+338,2025-05-16,Trainline,transport,6.12
+339,2025-05-17,Boots,health,-42.3
+340,2025-05-17,Boots,health,25.39
+341,2025-05-17,Shell,transport,10.17
+342,2025-05-18,Shell,transport,4.21
+343,2025-05-18,Trainline,transport,5.8
+344,2025-05-18,Pret A Manger,food,29.87
+345,2025-05-19,Spotify,subscriptions,13.25
+346,2025-05-19,Uber,transport,13.32
+347,2025-05-19,Sainsbury’s,groceries,31.05
+348,2025-05-20,TfL Oyster,transport,6.6
+349,2025-05-20,Shell,transport,17.19
+350,2025-05-20,Shell,transport,16.08
+351,2025-05-21,PureGym,health,42.4
+352,2025-05-22,Shell,transport,18.9
+353,2025-05-22,Deliveroo,food,19.23
+354,2025-05-23,Trainline,transport,5.17
+355,2025-05-24,Spotify,subscriptions,10.93
+356,2025-05-24,Sainsbury’s,groceries,22.18
+357,2025-05-24,Sainsbury’s,groceries,64.87
+358,2025-05-25,Sainsbury’s,groceries,20.25
+359,2025-05-25,PureGym,health,54.1
+360,2025-05-26,TfL Oyster,transport,20.18
+361,2025-05-27,Nando’s,food,10.52
+362,2025-05-27,Sainsbury’s,groceries,58.11
+363,2025-05-27,Nando’s,food,8.06
+364,2025-05-27,Netflix,subscriptions,18.02
+365,2025-05-28,Netflix,subscriptions,9.18
+366,2025-05-28,Uber,transport,11.62
+367,2025-05-28,TfL Oyster,transport,7.94
+368,2025-05-28,Netflix,subscriptions,18.97
+369,2025-05-29,Uber,transport,8.66
+370,2025-05-30,Deliveroo,food,26.74
+371,2025-05-30,TfL Oyster,transport,11.87
+372,2025-05-31,Uber,transport,17.21
+373,2025-05-31,TfL Oyster,transport,5.33
+374,2025-06-01,Nando’s,food,18.17
+375,2025-06-01,Netflix,subscriptions,6.45
+376,2025-06-02,Tesco,groceries,19.47
+377,2025-06-02,Netflix,subscriptions,15.94
+378,2025-06-02,Shell,transport,19.53
+379,2025-06-03,Tesco,groceries,66.34
+380,2025-06-03,Amazon,shopping,31.43
+381,2025-06-04,Trainline,transport,11.7
+382,2025-06-04,Shell,transport,4.45
+383,2025-06-04,Amazon,shopping,56.18
+384,2025-06-05,Nando’s,food,11.47
+385,2025-06-05,Amazon,shopping,91.46
+386,2025-06-05,Trainline,transport,4.68
+387,2025-06-05,Trainline,transport,21.62
+388,2025-06-06,Pret A Manger,food,10.04
+389,2025-06-07,Uniqlo,shopping,24.84
+390,2025-06-07,Pret A Manger,food,33.8
+391,2025-06-08,TfL Oyster,transport,18.04
+392,2025-06-08,Sainsbury’s,groceries,74.72
+393,2025-06-08,Shell,transport,8.91
+394,2025-06-09,Sainsbury’s,groceries,79.16
+395,2025-06-09,Netflix,subscriptions,6.25
+396,2025-06-10,Pret A Manger,food,9.19
+397,2025-06-11,Deliveroo,food,6.79
+398,2025-06-11,Uniqlo,shopping,44.72
+399,2025-06-11,PureGym,health,29.31
+400,2025-06-11,Amazon,shopping,97.49
+401,2025-06-12,Pret A Manger,food,33.4
+402,2025-06-12,Uber,transport,5.6
+403,2025-06-13,Boots,health,11.11
+404,2025-06-13,Trainline,transport,14.71
+405,2025-06-13,PureGym,health,48.92
+406,2025-06-13,PureGym,health,13.74
+407,2025-06-14,PureGym,health,35.67
+408,2025-06-14,Deliveroo,food,33.32
+409,2025-06-15,Amazon,shopping,31.57
+410,2025-06-15,TfL Oyster,transport,16.12
+411,2025-06-15,Trainline,transport,12.05
+412,2025-06-15,Sainsbury’s,groceries,32.78
+413,2025-06-16,Amazon,shopping,94.43
+414,2025-06-16,Amazon,shopping,38.38
+415,2025-06-16,Uber,transport,21.76
+416,2025-06-16,Uniqlo,shopping,56.84
+417,2025-06-17,Trainline,transport,21.04
+418,2025-06-17,Netflix,subscriptions,15.56
+419,2025-06-17,Nando’s,food,-58.37
+420,2025-06-18,PureGym,health,46.43
+421,2025-06-18,Netflix,subscriptions,15.81
+422,2025-06-18,Boots,health,20.66
+423,2025-06-18,Tesco,groceries,77.79
+424,2025-06-19,Shell,transport,22.04
+425,2025-06-19,Amazon,shopping,85.16
+426,2025-06-19,Pret A Manger,food,30.66
+427,2025-06-20,PureGym,health,11.85
+428,2025-06-21,Pret A Manger,food,21.96
+429,2025-06-21,Shell,transport,16.38
+430,2025-06-21,Trainline,transport,20.27
+431,2025-06-22,PureGym,health,39.79
+432,2025-06-22,Deliveroo,food,11.97
+433,2025-06-23,Nando’s,food,31.36
+434,2025-06-23,Boots,health,18.58
+435,2025-06-23,Shell,transport,16.43
+436,2025-06-24,Nando’s,food,14.95
+437,2025-06-24,Trainline,transport,17.78
+438,2025-06-24,Shell,transport,21.38
+439,2025-06-24,Shell,transport,17.74
+440,2025-06-25,PureGym,health,55.29
+441,2025-06-25,Uniqlo,shopping,95.97
+442,2025-06-25,Amazon,shopping,65.23
+443,2025-06-26,Spotify,subscriptions,8.39
+444,2025-06-26,Nando’s,food,16.79
+445,2025-06-26,Deliveroo,food,8.26
+446,2025-06-27,Amazon,shopping,32.55
+447,2025-06-27,Uber,transport,13.78
+448,2025-06-27,Uniqlo,shopping,31.27
+449,2025-06-28,Spotify,subscriptions,19.89
+450,2025-06-28,Boots,health,19.6
+451,2025-06-29,Shell,transport,17.72
+452,2025-06-29,Netflix,subscriptions,6.99
+453,2025-06-29,TfL Oyster,transport,7.08
+454,2025-06-29,Tesco,groceries,18.84
+455,2025-06-30,Nando’s,food,34.07
+456,2025-06-30,PureGym,health,36.09
+457,2025-07-01,Shell,transport,4.82
+458,2025-07-01,PureGym,health,50.49
+459,2025-07-02,Spotify,subscriptions,-71.96
+460,2025-07-02,Deliveroo,food,29.86
+461,2025-07-02,Nando’s,food,20.12
+462,2025-07-03,TfL Oyster,transport,8.46
+463,2025-07-04,Amazon,shopping,73.59
+464,2025-07-04,Nando’s,food,22.13
+465,2025-07-04,Pret A Manger,food,18.17
+466,2025-07-05,Sainsbury’s,groceries,44.22
+467,2025-07-06,Nando’s,food,29.88
+468,2025-07-07,Nando’s,food,9.71
+469,2025-07-07,Trainline,transport,12.02
+470,2025-07-07,Netflix,subscriptions,10.52
+471,2025-07-07,Tesco,groceries,78.5
+472,2025-07-08,TfL Oyster,transport,4.88
+473,2025-07-08,Deliveroo,food,21.08
+474,2025-07-08,Deliveroo,food,10.02
+475,2025-07-09,Deliveroo,food,21.82
+476,2025-07-09,Sainsbury’s,groceries,50.49
+477,2025-07-09,Tesco,groceries,15.12
+478,2025-07-09,Nando’s,food,32.34
+479,2025-07-10,Nando’s,food,20.12
+480,2025-07-11,Deliveroo,food,19.16
+481,2025-07-12,Uber,transport,5.75
+482,2025-07-12,Uber,transport,20.65
+483,2025-07-12,Sainsbury’s,groceries,71.57
+484,2025-07-13,Shell,transport,20.49
+485,2025-07-13,Netflix,subscriptions,9.55
+486,2025-07-13,Trainline,transport,20.66
+487,2025-07-13,Deliveroo,food,21.84
+488,2025-07-14,Uber,transport,12.17
+489,2025-07-14,Tesco,groceries,18.99
+490,2025-07-14,Nando’s,food,19.94
+491,2025-07-15,PureGym,health,34.28
+492,2025-07-15,PureGym,health,25.34
+493,2025-07-15,Uniqlo,shopping,31.61
+494,2025-07-16,Sainsbury’s,groceries,71.34
+495,2025-07-16,Uber,transport,5.74
+496,2025-07-16,Nando’s,food,32.76
+497,2025-07-17,Amazon,shopping,40.06
+498,2025-07-18,Netflix,subscriptions,4.57
+499,2025-07-19,Spotify,subscriptions,15.99
+500,2025-07-19,Boots,health,-79.06
+501,2025-07-20,Sainsbury’s,groceries,20.19
+502,2025-07-21,Spotify,subscriptions,18.3
+503,2025-07-21,Spotify,subscriptions,13.7
+504,2025-07-21,Uber,transport,22.26
+505,2025-07-21,Tesco,groceries,44.54
+506,2025-07-22,TfL Oyster,transport,12.18
+507,2025-07-22,Nando’s,food,10.64
+508,2025-07-22,PureGym,health,11.06
+509,2025-07-22,Trainline,transport,13.41
+510,2025-07-23,Sainsbury’s,groceries,37.84
+511,2025-07-24,Nando’s,food,15.13
+512,2025-07-24,Deliveroo,food,18.17
+513,2025-07-24,Trainline,transport,20.41
+514,2025-07-24,Trainline,transport,19.38
+515,2025-07-25,PureGym,health,-53.39
+516,2025-07-25,Uber,transport,17.53
+517,2025-07-25,PureGym,health,41.02
+518,2025-07-26,Tesco,groceries,75.66
+519,2025-07-26,Nando’s,food,33.2
+520,2025-07-26,Amazon,shopping,77
+521,2025-07-27,Pret A Manger,food,8.32
+522,2025-07-27,Trainline,transport,20.28
+523,2025-07-28,Tesco,groceries,23.69
+524,2025-07-28,Amazon,shopping,59.31
+525,2025-07-28,Uber,transport,22.12
+526,2025-07-29,Amazon,shopping,91.05
+527,2025-07-29,Tesco,groceries,45.48
+528,2025-07-30,Uber,transport,13.79
+529,2025-07-31,TfL Oyster,transport,19.02
+530,2025-07-31,Pret A Manger,food,30.97
+531,2025-07-31,TfL Oyster,transport,9.31
+532,2025-08-01,Spotify,subscriptions,8.46
+533,2025-08-02,Uber,transport,9.1
+534,2025-08-03,Tesco,groceries,74.23
+535,2025-08-03,Spotify,subscriptions,7.5
+536,2025-08-03,Tesco,groceries,47.83
+537,2025-08-03,TfL Oyster,transport,6.76
+538,2025-08-04,Trainline,transport,16.8
+539,2025-08-04,Nando’s,food,13.96
+540,2025-08-04,Spotify,subscriptions,13.95
+541,2025-08-04,Deliveroo,food,9.58
+542,2025-08-05,TfL Oyster,transport,15.97
+543,2025-08-06,Spotify,subscriptions,8.47
+544,2025-08-06,PureGym,health,41.48
+545,2025-08-07,Nando’s,food,13.57
+546,2025-08-08,Trainline,transport,5.05
+547,2025-08-08,Netflix,subscriptions,5.86
+548,2025-08-08,Amazon,shopping,33.14
+549,2025-08-08,PureGym,health,36.02
+550,2025-08-09,Nando’s,food,8.87
+551,2025-08-09,Amazon,shopping,76.02
+552,2025-08-09,Pret A Manger,food,25.37
+553,2025-08-10,Sainsbury’s,groceries,61.02
+554,2025-08-11,Trainline,transport,11.01
+555,2025-08-12,PureGym,health,22.46
+556,2025-08-12,Sainsbury’s,groceries,78.69
+557,2025-08-12,TfL Oyster,transport,19.27
+558,2025-08-13,PureGym,health,40.68
+559,2025-08-14,Tesco,groceries,44.44
+560,2025-08-15,Netflix,subscriptions,10.07
+561,2025-08-15,Spotify,subscriptions,-13.75
+562,2025-08-15,Pret A Manger,food,21.04
+563,2025-08-15,TfL Oyster,transport,18.63
+564,2025-08-16,Pret A Manger,food,32.54
+565,2025-08-16,Tesco,groceries,-84.53
+566,2025-08-17,Uber,transport,10.52
+567,2025-08-17,Trainline,transport,8.7
+568,2025-08-17,Spotify,subscriptions,12.19
+569,2025-08-17,Spotify,subscriptions,20.17
+570,2025-08-18,Shell,transport,21.5
+571,2025-08-18,PureGym,health,23.44
+572,2025-08-18,Uber,transport,9.93
+573,2025-08-18,Tesco,groceries,25.96
+574,2025-08-19,Deliveroo,food,11.34
+575,2025-08-19,Pret A Manger,food,9.25
+576,2025-08-19,Spotify,subscriptions,12.75
+577,2025-08-19,Nando’s,food,15.39
+578,2025-08-20,Spotify,subscriptions,5.81
+579,2025-08-20,TfL Oyster,transport,6.32
+580,2025-08-20,Tesco,groceries,25.57
+581,2025-08-20,Pret A Manger,food,13.82
+582,2025-08-21,Pret A Manger,food,28.14
+583,2025-08-21,Boots,health,28.94
+584,2025-08-21,Uniqlo,shopping,31.8
+585,2025-08-22,PureGym,health,27.09
+586,2025-08-23,Tesco,groceries,55.78
+587,2025-08-23,Uber,transport,6.81
+588,2025-08-23,TfL Oyster,transport,9.95
+589,2025-08-23,Uber,transport,18.95
+590,2025-08-24,Deliveroo,food,32.4
+591,2025-08-25,TfL Oyster,transport,20.55
+592,2025-08-26,Netflix,subscriptions,16
+593,2025-08-27,Deliveroo,food,28.52
+594,2025-08-27,Spotify,subscriptions,6.93
+595,2025-08-27,Spotify,subscriptions,10.08
+596,2025-08-27,Sainsbury’s,groceries,28.19
+597,2025-08-28,Uniqlo,shopping,66.99
+598,2025-08-28,Trainline,transport,8.8
+599,2025-08-28,Boots,health,45.66
+600,2025-08-29,Boots,health,35.23
+601,2025-08-29,Boots,health,33.94
+602,2025-08-29,Amazon,shopping,31.83
+603,2025-08-29,Tesco,groceries,70.77
+604,2025-08-30,Sainsbury’s,groceries,28.42
+605,2025-08-30,Sainsbury’s,groceries,32.42
+606,2025-08-30,Shell,transport,17.59
+607,2025-08-30,PureGym,health,44.34
+608,2025-08-31,Boots,health,15.06
+609,2025-08-31,Spotify,subscriptions,7.07
+610,2025-08-31,Amazon,shopping,38.36
+611,2025-09-01,Netflix,subscriptions,5.23
+612,2025-09-01,Netflix,subscriptions,4.52
+613,2025-09-01,Tesco,groceries,18.12
+614,2025-09-01,Deliveroo,food,18.75
+615,2025-09-02,Spotify,subscriptions,16
+616,2025-09-02,Uber,transport,7.56
+617,2025-09-02,Deliveroo,food,33.38
+618,2025-09-02,Trainline,transport,8.93
+619,2025-09-03,Deliveroo,food,13.78
+620,2025-09-03,Deliveroo,food,-51.49
+621,2025-09-03,Deliveroo,food,30.1
+622,2025-09-03,Netflix,subscriptions,19.89
+623,2025-09-04,Spotify,subscriptions,12.63
+624,2025-09-04,Pret A Manger,food,19.35
+625,2025-09-05,Spotify,subscriptions,20.25
+626,2025-09-05,Uber,transport,9.15
+627,2025-09-05,Pret A Manger,food,17.88
+628,2025-09-05,Tesco,groceries,16.64
+629,2025-09-06,Trainline,transport,5.53
+630,2025-09-06,Spotify,subscriptions,4.12
+631,2025-09-07,Trainline,transport,5.67
+632,2025-09-08,Nando’s,food,-85.07
+633,2025-09-08,Uniqlo,shopping,60.17
+634,2025-09-08,Deliveroo,food,19.61
+635,2025-09-09,Sainsbury’s,groceries,57.59
+636,2025-09-09,Boots,health,33.2
+637,2025-09-10,Uniqlo,shopping,48.04
+638,2025-09-10,Netflix,subscriptions,19.25
+639,2025-09-10,Uniqlo,shopping,81.87
+640,2025-09-11,Trainline,transport,15.31
+641,2025-09-11,Shell,transport,16.98
+642,2025-09-11,Netflix,subscriptions,16.39
+643,2025-09-11,Pret A Manger,food,20.92
+644,2025-09-12,PureGym,health,20.49
+645,2025-09-12,Spotify,subscriptions,17.59
+646,2025-09-12,Shell,transport,16.15
+647,2025-09-12,TfL Oyster,transport,14.9
+648,2025-09-13,Spotify,subscriptions,-38.72
+649,2025-09-13,Trainline,transport,19.21
+650,2025-09-14,Tesco,groceries,78.78
+651,2025-09-14,Sainsbury’s,groceries,-19.28
+652,2025-09-14,Trainline,transport,13.58
+653,2025-09-15,Boots,health,17.01
+654,2025-09-15,Shell,transport,18.32
+655,2025-09-15,Deliveroo,food,20.8
+656,2025-09-16,Uber,transport,22.09
+657,2025-09-17,Sainsbury’s,groceries,22.95
+658,2025-09-18,PureGym,health,25.55
+659,2025-09-18,Boots,health,28.96
+660,2025-09-18,Shell,transport,17.48
+661,2025-09-19,PureGym,health,31.62
+662,2025-09-19,Sainsbury’s,groceries,25.38
+663,2025-09-19,Pret A Manger,food,26.45
+664,2025-09-20,Spotify,subscriptions,16.17
+665,2025-09-20,Shell,transport,19.37
+666,2025-09-20,Trainline,transport,5.75
+667,2025-09-21,Uber,transport,21.21
+668,2025-09-21,PureGym,health,39.42
+669,2025-09-22,Deliveroo,food,25.8
+670,2025-09-23,Tesco,groceries,54.42
+671,2025-09-23,Deliveroo,food,7.94
+672,2025-09-23,Sainsbury’s,groceries,64.82
+673,2025-09-23,Deliveroo,food,33.8
+674,2025-09-24,Boots,health,52.95
+675,2025-09-25,Shell,transport,9.97
+676,2025-09-25,Pret A Manger,food,9.75
+677,2025-09-25,PureGym,health,55.01
+678,2025-09-26,Uber,transport,10.17
+679,2025-09-26,Trainline,transport,18.05
+680,2025-09-26,Boots,health,20.15
+681,2025-09-26,Boots,health,28.25
+682,2025-09-27,Uniqlo,shopping,-45.78
+683,2025-09-27,Pret A Manger,food,14.51
+684,2025-09-27,Trainline,transport,-44.9
+685,2025-09-27,Boots,health,38.64
+686,2025-09-28,Tesco,groceries,50.42
+687,2025-09-28,TfL Oyster,transport,-16.51
+688,2025-09-29,Nando’s,food,15.82
+689,2025-09-29,Shell,transport,12.56
+690,2025-09-29,PureGym,health,39.66
+691,2025-09-30,Pret A Manger,food,-47.25
+692,2025-09-30,Uniqlo,shopping,65.2
+693,2025-09-30,Tesco,groceries,38.93
+694,2025-09-30,Boots,health,55.23
+695,2025-10-01,Nando’s,food,31.64
+696,2025-10-01,Trainline,transport,11.99
+697,2025-10-02,Pret A Manger,food,27.63
+698,2025-10-02,Uniqlo,shopping,56.59
+699,2025-10-02,Shell,transport,7.97
+700,2025-10-02,Trainline,transport,20.66
+701,2025-10-03,Tesco,groceries,32.75
+702,2025-10-03,Deliveroo,food,20.75
+703,2025-10-03,Deliveroo,food,19.47
+704,2025-10-04,Netflix,subscriptions,16.8
+705,2025-10-04,Amazon,shopping,60.02
+706,2025-10-04,Pret A Manger,food,9.32
+707,2025-10-05,Shell,transport,11.08
+708,2025-10-05,Pret A Manger,food,25.81
+709,2025-10-05,Uber,transport,21.74
+710,2025-10-06,Trainline,transport,7.5
+711,2025-10-06,Nando’s,food,-67.84
+712,2025-10-07,Deliveroo,food,13.11
+713,2025-10-07,Sainsbury’s,groceries,78.57
+714,2025-10-07,Boots,health,14.62
+715,2025-10-07,Nando’s,food,32.73
+716,2025-10-08,Sainsbury’s,groceries,50.56
+717,2025-10-09,Tesco,groceries,62.22
+718,2025-10-09,Deliveroo,food,20.7
+719,2025-10-09,Nando’s,food,34.06
+720,2025-10-09,Nando’s,food,28.67
+721,2025-10-10,Trainline,transport,11.68
+722,2025-10-10,Shell,transport,19.34
+723,2025-10-10,Spotify,subscriptions,15.62
+724,2025-10-10,TfL Oyster,transport,17.04
+725,2025-10-11,Sainsbury’s,groceries,45.91
+726,2025-10-11,Amazon,shopping,102.06
+727,2025-10-12,Boots,health,53.45
+728,2025-10-13,Uniqlo,shopping,57.47
+729,2025-10-14,Sainsbury’s,groceries,68.51
+730,2025-10-14,PureGym,health,52.12
+731,2025-10-14,Spotify,subscriptions,9.29
+732,2025-10-15,TfL Oyster,transport,19.65
+733,2025-10-15,Nando’s,food,24.01
+734,2025-10-15,Deliveroo,food,27
+735,2025-10-15,Netflix,subscriptions,20.14
+736,2025-10-16,Pret A Manger,food,19.79
+737,2025-10-16,Tesco,groceries,44.06
+738,2025-10-17,Nando’s,food,17.46
+739,2025-10-17,Uber,transport,14.57
+740,2025-10-18,Nando’s,food,29.83
+741,2025-10-18,Sainsbury’s,groceries,33.38
+742,2025-10-19,Spotify,subscriptions,-53.07
+743,2025-10-20,Shell,transport,12.99
+744,2025-10-20,TfL Oyster,transport,12.85
+745,2025-10-21,Netflix,subscriptions,19.7
+746,2025-10-21,PureGym,health,48.14
+747,2025-10-21,Tesco,groceries,76.55
+748,2025-10-21,TfL Oyster,transport,8.09
+749,2025-10-22,Uber,transport,21.27
+750,2025-10-22,Tesco,groceries,56.09
+751,2025-10-22,Tesco,groceries,44.58
+752,2025-10-22,Uber,transport,14.74
+753,2025-10-23,Uber,transport,9.22
+754,2025-10-23,Spotify,subscriptions,3.92
+755,2025-10-23,Deliveroo,food,21.13
+756,2025-10-23,Uniqlo,shopping,33.01
+757,2025-10-24,Uniqlo,shopping,20.58
+758,2025-10-24,Spotify,subscriptions,14.17
+759,2025-10-24,Boots,health,28.58
+760,2025-10-24,Boots,health,50.59
+761,2025-10-25,Pret A Manger,food,25.77
+762,2025-10-25,TfL Oyster,transport,19.24
+763,2025-10-25,Sainsbury’s,groceries,19.46
+764,2025-10-26,Spotify,subscriptions,18.94
+765,2025-10-27,Shell,transport,18.76
+766,2025-10-27,Deliveroo,food,12.04
+767,2025-10-28,PureGym,health,44.46
+768,2025-10-28,PureGym,health,48.66
+769,2025-10-28,Uber,transport,21.09
+770,2025-10-29,Tesco,groceries,28.44
+771,2025-10-29,Shell,transport,18.66
+772,2025-10-30,Uber,transport,18.55
+773,2025-10-31,TfL Oyster,transport,20.47
+774,2025-10-31,Netflix,subscriptions,5.55
+775,2025-10-31,Trainline,transport,15.46
+776,2025-11-01,Boots,health,50.26
+777,2025-11-01,Uber,transport,14.25
+778,2025-11-01,Shell,transport,22.51
+779,2025-11-01,Tesco,groceries,43.81
+780,2025-11-02,Tesco,groceries,37.39
+781,2025-11-02,TfL Oyster,transport,12.58
+782,2025-11-02,Trainline,transport,12.76
+783,2025-11-02,Uber,transport,17.34
+784,2025-11-03,Trainline,transport,17.98
+785,2025-11-03,Pret A Manger,food,30.94
+786,2025-11-04,Trainline,transport,18.37
+787,2025-11-04,Nando’s,food,9.26
+788,2025-11-04,Nando’s,food,9.26
+789,2025-11-05,Spotify,subscriptions,19
+790,2025-11-05,TfL Oyster,transport,13.01
+791,2025-11-05,Amazon,shopping,-71.43
+792,2025-11-05,Boots,health,56.21
+793,2025-11-06,Sainsbury’s,groceries,71.25
+794,2025-11-06,Spotify,subscriptions,7.86
+795,2025-11-06,Netflix,subscriptions,8.19
+796,2025-11-06,Uniqlo,shopping,46.88
+797,2025-11-07,Uniqlo,shopping,62.48
+798,2025-11-07,Shell,transport,9.61
+799,2025-11-07,Uber,transport,20.25
+800,2025-11-07,Sainsbury’s,groceries,54.4
+801,2025-11-08,TfL Oyster,transport,11.16
+802,2025-11-08,PureGym,health,19.76
+803,2025-11-08,Sainsbury’s,groceries,36.74
+804,2025-11-08,Boots,health,36.22
+805,2025-11-09,Uber,transport,22.39
+806,2025-11-09,TfL Oyster,transport,16.82
+807,2025-11-09,Deliveroo,food,16.77
+808,2025-11-10,TfL Oyster,transport,21.63
+809,2025-11-10,Shell,transport,18.88
+810,2025-11-10,Tesco,groceries,63.21
+811,2025-11-11,Shell,transport,6.26
+812,2025-11-11,Boots,health,21.86
+813,2025-11-11,Tesco,groceries,26.69
+814,2025-11-12,Uber,transport,17.48
+815,2025-11-12,Nando’s,food,16.71
+816,2025-11-12,Boots,health,49.93
+817,2025-11-13,Amazon,shopping,78.98
+818,2025-11-13,Boots,health,15.6
+819,2025-11-14,TfL Oyster,transport,7.36
+820,2025-11-15,Uniqlo,shopping,23.98
+821,2025-11-15,Tesco,groceries,62.06
+822,2025-11-15,Spotify,subscriptions,20.34
+823,2025-11-16,Trainline,transport,20.77
+824,2025-11-17,PureGym,health,47.57
+825,2025-11-17,Tesco,groceries,59.1
+826,2025-11-18,PureGym,health,41.37
+827,2025-11-18,Uber,transport,15.71
+828,2025-11-18,Spotify,subscriptions,11.2
+829,2025-11-19,Uber,transport,5.77
+830,2025-11-19,Spotify,subscriptions,5.15
+831,2025-11-19,Shell,transport,18.12
+832,2025-11-20,Nando’s,food,7.1
+833,2025-11-20,Uber,transport,5.22
+834,2025-11-21,Sainsbury’s,groceries,49.69
+835,2025-11-21,Shell,transport,5.81
+836,2025-11-21,Amazon,shopping,60.32
+837,2025-11-22,Trainline,transport,9.96
+838,2025-11-23,Uniqlo,shopping,50.97
+839,2025-11-23,Uniqlo,shopping,-61.31
+840,2025-11-24,Amazon,shopping,60.83
+841,2025-11-24,PureGym,health,35.15
+842,2025-11-24,Spotify,subscriptions,10.27
+843,2025-11-25,Nando’s,food,12.14
+844,2025-11-25,Uber,transport,-50.96
+845,2025-11-25,Tesco,groceries,41.97
+846,2025-11-26,Boots,health,24.56
+847,2025-11-26,Trainline,transport,20.27
+848,2025-11-27,Boots,health,55.32
+849,2025-11-27,Boots,health,18.78
+850,2025-11-28,Trainline,transport,19.95
+851,2025-11-28,Trainline,transport,5.68
+852,2025-11-28,Tesco,groceries,18.31
+853,2025-11-29,Uber,transport,17.14
+854,2025-11-29,Deliveroo,food,26.8
+855,2025-11-29,Tesco,groceries,30.97
+856,2025-11-30,Deliveroo,food,28.63
+857,2025-11-30,TfL Oyster,transport,20.66
+858,2025-11-30,Pret A Manger,food,21.6
+859,2025-11-30,Sainsbury’s,groceries,25.84
+860,2025-12-01,Netflix,subscriptions,16.44
+861,2025-12-01,Tesco,groceries,25.95
+862,2025-12-01,TfL Oyster,transport,14.3
+863,2025-12-01,Tesco,groceries,33.66
+864,2025-12-02,Boots,health,23.62
+865,2025-12-02,Shell,transport,14.23
+866,2025-12-02,TfL Oyster,transport,12.91
+867,2025-12-03,Shell,transport,8.51
+868,2025-12-04,Spotify,subscriptions,20.63
+869,2025-12-04,Tesco,groceries,78.53
+870,2025-12-04,Nando’s,food,-29.18
+871,2025-12-04,Spotify,subscriptions,8.13
+872,2025-12-05,PureGym,health,22.92
+873,2025-12-05,Shell,transport,18.1
+874,2025-12-05,Nando’s,food,9.38
+875,2025-12-05,Trainline,transport,21.75
+876,2025-12-06,Netflix,subscriptions,18.13
+877,2025-12-07,Deliveroo,food,10.96
+878,2025-12-07,Nando’s,food,24.09
+879,2025-12-07,Boots,health,56.32
+880,2025-12-08,PureGym,health,20.81
+881,2025-12-08,Trainline,transport,8.54
+882,2025-12-08,Nando’s,food,27.36
+883,2025-12-08,Tesco,groceries,45.64
+884,2025-12-09,Deliveroo,food,15.66
+885,2025-12-09,TfL Oyster,transport,20.6
+886,2025-12-10,Trainline,transport,20.16
+887,2025-12-10,Uniqlo,shopping,24.65
+888,2025-12-10,Deliveroo,food,23.65
+889,2025-12-10,Sainsbury’s,groceries,61.6
+890,2025-12-11,Sainsbury’s,groceries,20.3
+891,2025-12-11,Uniqlo,shopping,28.71
+892,2025-12-11,Uber,transport,-20.89
+893,2025-12-11,Netflix,subscriptions,18.14
+894,2025-12-12,Deliveroo,food,20.02
+895,2025-12-13,Spotify,subscriptions,8.79
+896,2025-12-14,PureGym,health,51.29
+897,2025-12-15,Trainline,transport,17.9
+898,2025-12-15,Uber,transport,21.37
+899,2025-12-15,TfL Oyster,transport,22.3
+900,2025-12-16,Tesco,groceries,62.56
+901,2025-12-16,Sainsbury’s,groceries,24.39
+902,2025-12-16,Deliveroo,food,12.66
+903,2025-12-17,Netflix,subscriptions,9.86
+904,2025-12-17,TfL Oyster,transport,13.32
+905,2025-12-18,Sainsbury’s,groceries,58.93
+906,2025-12-18,Deliveroo,food,17.26
+907,2025-12-19,Uber,transport,8.55
+908,2025-12-20,Sainsbury’s,groceries,64.17
+909,2025-12-20,Tesco,groceries,64.66
+910,2025-12-20,Shell,transport,-40.12
+911,2025-12-21,Boots,health,13.08
+912,2025-12-21,Trainline,transport,18.2
+913,2025-12-21,Trainline,transport,7.76
+914,2025-12-22,Deliveroo,food,25.6
+915,2025-12-22,Shell,transport,14.2
+916,2025-12-23,Amazon,shopping,-49.78
+917,2025-12-24,Pret A Manger,food,22.34
+918,2025-12-25,Netflix,subscriptions,9.86
+919,2025-12-25,PureGym,health,46.45
+920,2025-12-26,Netflix,subscriptions,4.04
+921,2025-12-26,Trainline,transport,16.88
+922,2025-12-26,Uniqlo,shopping,59.96
+923,2025-12-26,Spotify,subscriptions,17.57
+924,2025-12-27,TfL Oyster,transport,22.38
+925,2025-12-27,PureGym,health,21.41
+926,2025-12-27,Netflix,subscriptions,15.8
+927,2025-12-27,Uber,transport,17.46
+928,2025-12-28,Uber,transport,20.52
+929,2025-12-28,Netflix,subscriptions,4.62
+930,2025-12-28,Boots,health,21.61
+931,2025-12-29,Amazon,shopping,31.75
+932,2025-12-29,Spotify,subscriptions,11.52
+933,2025-12-29,Uniqlo,shopping,33.24
+934,2025-12-29,Boots,health,18.93
+935,2025-12-30,Amazon,shopping,36.67
+936,2025-12-30,Pret A Manger,food,21.62
+937,2025-12-30,Uber,transport,16.59
+938,2025-12-30,Nando’s,food,31.9
+939,2025-12-31,Spotify,subscriptions,14.73
+940,2025-12-31,Uber,transport,18.42
+941,2025-12-31,Trainline,transport,20.08

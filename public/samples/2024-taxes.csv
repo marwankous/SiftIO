@@ -1,0 +1,9 @@
+category,amount,deductible
+Employment income,52400,false
+Freelance income,8125.5,false
+Home office,-1240,true
+Equipment,-2310.75,true
+Travel,-845.2,true
+Professional fees,-600,true
+Charitable giving,-1500,true
+Pension contributions,-4800,true

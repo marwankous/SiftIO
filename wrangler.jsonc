@@ -1,0 +1,13 @@
+{
+  // SiftIO deploys as a static-asset Worker: no server code, no "main" entry.
+  // ponytail: assets-only. Add a "main" script only if something ever needs to
+  // run server-side — which, for this project, would mean the design is wrong.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "siftio",
+  "compatibility_date": "2026-08-29",
+  "assets": {
+    "directory": "./dist/siftio/browser",
+    // Serve index.html for unknown paths so deep links resolve to the SPA.
+    "not_found_handling": "single-page-application"
+  }
+}

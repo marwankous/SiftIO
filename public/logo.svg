@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" role="img" aria-label="SiftIO">
+  <g stroke="currentColor" stroke-width="3.2" stroke-linecap="round">
+    <line x1="6.4" y1="7" x2="25.6" y2="7"/>
+    <line x1="9.8" y1="12.6" x2="22.2" y2="12.6"/>
+    <line x1="13.2" y1="18.2" x2="18.8" y2="18.2"/>
+  </g>
+  <circle cx="16" cy="24.6" r="3.2" fill="#34d399"/>
+</svg>

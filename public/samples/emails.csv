@@ -1,0 +1,416 @@
+received_at,from_addr,subject,size_kb,unread
+2025-01-01T15:11:00Z,digest@news.example,Re: Re: lunch?,132,false
+2025-01-01T20:57:00Z,billing@acme.test,"Standup notes, 14 May",651,false
+2025-01-01T18:22:00Z,digest@news.example,"She said ""ship it"" — so we did",327,false
+2025-01-01T15:30:00Z,team@work.example,Your order has shipped,743,false
+2025-01-02T17:02:00Z,digest@news.example,Re: Re: lunch?,283,false
+2025-01-03T13:27:00Z,no-reply@shop.example,"Renewal reminder, action needed",635,false
+2025-01-03T18:08:00Z,billing@acme.test,"She said ""ship it"" — so we did",718,false
+2025-01-03T21:57:00Z,no-reply@shop.example,"Renewal reminder, action needed",354,true
+2025-01-04T15:03:00Z,digest@news.example,"She said ""ship it"" — so we did",18,false
+2025-01-06T19:58:00Z,no-reply@shop.example,Re: Re: lunch?,132,false
+2025-01-06T08:59:00Z,no-reply@shop.example,"Renewal reminder, action needed",286,false
+2025-01-06T21:33:00Z,billing@acme.test,Re: Re: lunch?,128,false
+2025-01-07T19:29:00Z,no-reply@shop.example,"Re: invoice #2291, revised",41,false
+2025-01-07T09:26:00Z,digest@news.example,"Standup notes, 14 May",512,false
+2025-01-09T22:31:00Z,digest@news.example,"Re: invoice #2291, revised",425,true
+2025-01-09T15:42:00Z,digest@news.example,Your order has shipped,783,true
+2025-01-09T22:52:00Z,no-reply@shop.example,"Re: invoice #2291, revised",92,false
+2025-01-09T16:04:00Z,no-reply@shop.example,Re: Re: lunch?,474,true
+2025-01-10T18:07:00Z,billing@acme.test,Weekly digest,766,false
+2025-01-11T18:47:00Z,digest@news.example,Your order has shipped,561,false
+2025-01-11T14:35:00Z,no-reply@shop.example,Your order has shipped,242,false
+2025-01-12T16:29:00Z,billing@acme.test,"Standup notes, 14 May",263,false
+2025-01-12T06:00:00Z,billing@acme.test,Your order has shipped,436,true
+2025-01-12T15:07:00Z,digest@news.example,Weekly digest,556,false
+2025-01-12T08:10:00Z,digest@news.example,"Re: invoice #2291, revised",839,true
+2025-01-12T18:32:00Z,billing@acme.test,Weekly digest,285,true
+2025-01-13T15:07:00Z,no-reply@shop.example,Your order has shipped,50,false
+2025-01-13T18:14:00Z,no-reply@shop.example,Re: Re: lunch?,178,true
+2025-01-13T21:11:00Z,team@work.example,"She said ""ship it"" — so we did",470,false
+2025-01-14T21:12:00Z,no-reply@shop.example,"Standup notes, 14 May",65,true
+2025-01-15T14:36:00Z,digest@news.example,"She said ""ship it"" — so we did",814,false
+2025-01-15T07:47:00Z,digest@news.example,Weekly digest,548,false
+2025-01-15T13:56:00Z,billing@acme.test,Re: Re: lunch?,228,false
+2025-01-15T08:53:00Z,team@work.example,Re: Re: lunch?,623,false
+2025-01-15T11:20:00Z,team@work.example,"Renewal reminder, action needed",315,false
+2025-01-16T13:52:00Z,digest@news.example,"She said ""ship it"" — so we did",529,true
+2025-01-16T09:54:00Z,billing@acme.test,"Renewal reminder, action needed",809,false
+2025-01-16T20:14:00Z,team@work.example,Weekly digest,808,true
+2025-01-16T20:16:00Z,team@work.example,Weekly digest,414,false
+2025-01-16T20:57:00Z,billing@acme.test,"She said ""ship it"" — so we did",357,true
+2025-01-17T20:49:00Z,digest@news.example,Weekly digest,396,false
+2025-01-17T17:36:00Z,team@work.example,Your order has shipped,636,true
+2025-01-17T06:09:00Z,digest@news.example,Re: Re: lunch?,792,true
+2025-01-18T13:48:00Z,billing@acme.test,"She said ""ship it"" — so we did",90,true
+2025-01-18T16:22:00Z,digest@news.example,"She said ""ship it"" — so we did",505,true
+2025-01-18T18:10:00Z,digest@news.example,"Re: invoice #2291, revised",197,true
+2025-01-20T12:25:00Z,digest@news.example,"Standup notes, 14 May",686,false
+2025-01-20T17:00:00Z,digest@news.example,"Re: invoice #2291, revised",416,true
+2025-01-20T17:20:00Z,billing@acme.test,Your order has shipped,465,false
+2025-01-20T06:41:00Z,team@work.example,Your order has shipped,413,false
+2025-01-21T20:40:00Z,team@work.example,Re: Re: lunch?,448,false
+2025-01-21T13:10:00Z,team@work.example,"Renewal reminder, action needed",395,false
+2025-01-22T12:36:00Z,team@work.example,"She said ""ship it"" — so we did",82,false
+2025-01-22T18:55:00Z,team@work.example,"Standup notes, 14 May",226,false
+2025-01-22T13:22:00Z,digest@news.example,"Re: invoice #2291, revised",558,false
+2025-01-22T17:15:00Z,digest@news.example,"Standup notes, 14 May",55,false
+2025-01-22T20:14:00Z,billing@acme.test,"Standup notes, 14 May",416,false
+2025-01-23T08:30:00Z,team@work.example,Your order has shipped,756,true
+2025-01-23T11:22:00Z,digest@news.example,"She said ""ship it"" — so we did",65,false
+2025-01-23T14:10:00Z,no-reply@shop.example,"Standup notes, 14 May",687,true
+2025-01-23T19:09:00Z,no-reply@shop.example,Your order has shipped,130,false
+2025-01-23T15:13:00Z,billing@acme.test,Re: Re: lunch?,297,true
+2025-01-24T12:53:00Z,billing@acme.test,Your order has shipped,849,false
+2025-01-24T16:28:00Z,team@work.example,"She said ""ship it"" — so we did",309,false
+2025-01-24T11:11:00Z,digest@news.example,Re: Re: lunch?,266,false
+2025-01-24T08:29:00Z,team@work.example,"Standup notes, 14 May",206,false
+2025-01-25T06:12:00Z,billing@acme.test,"Renewal reminder, action needed",8,true
+2025-01-25T18:25:00Z,billing@acme.test,"She said ""ship it"" — so we did",335,true
+2025-01-26T10:59:00Z,no-reply@shop.example,Weekly digest,386,false
+2025-01-26T15:19:00Z,team@work.example,"She said ""ship it"" — so we did",258,false
+2025-01-27T11:32:00Z,no-reply@shop.example,Weekly digest,131,false
+2025-01-27T12:58:00Z,digest@news.example,"Renewal reminder, action needed",275,true
+2025-01-28T19:58:00Z,team@work.example,"Standup notes, 14 May",5,true
+2025-01-29T06:56:00Z,team@work.example,"Re: invoice #2291, revised",633,false
+2025-01-29T07:04:00Z,billing@acme.test,"Standup notes, 14 May",642,false
+2025-01-29T17:43:00Z,no-reply@shop.example,"Re: invoice #2291, revised",786,false
+2025-01-29T21:24:00Z,team@work.example,Re: Re: lunch?,137,true
+2025-01-29T17:45:00Z,team@work.example,Weekly digest,630,false
+2025-01-30T06:51:00Z,billing@acme.test,"She said ""ship it"" — so we did",2,false
+2025-01-30T20:32:00Z,billing@acme.test,"She said ""ship it"" — so we did",214,true
+2025-01-30T18:00:00Z,digest@news.example,"Re: invoice #2291, revised",403,true
+2025-01-31T12:12:00Z,no-reply@shop.example,"Re: invoice #2291, revised",587,false
+2025-01-31T08:35:00Z,no-reply@shop.example,"She said ""ship it"" — so we did",511,true
+2025-01-31T07:31:00Z,team@work.example,Re: Re: lunch?,356,false
+2025-01-31T17:27:00Z,team@work.example,"Re: invoice #2291, revised",104,true
+2025-02-03T17:55:00Z,billing@acme.test,Weekly digest,274,false
+2025-02-03T19:06:00Z,no-reply@shop.example,Your order has shipped,763,true
+2025-02-03T09:18:00Z,no-reply@shop.example,Your order has shipped,217,false
+2025-02-03T06:12:00Z,team@work.example,Weekly digest,694,true
+2025-02-04T12:37:00Z,team@work.example,"Re: invoice #2291, revised",151,false
+2025-02-04T06:15:00Z,billing@acme.test,"She said ""ship it"" — so we did",601,false
+2025-02-05T11:25:00Z,digest@news.example,"Re: invoice #2291, revised",87,false
+2025-02-05T13:30:00Z,team@work.example,"She said ""ship it"" — so we did",177,false
+2025-02-05T21:49:00Z,billing@acme.test,Your order has shipped,696,false
+2025-02-05T20:15:00Z,team@work.example,Your order has shipped,599,false
+2025-02-06T15:05:00Z,billing@acme.test,"Renewal reminder, action needed",207,false
+2025-02-06T08:04:00Z,billing@acme.test,"She said ""ship it"" — so we did",20,false
+2025-02-07T21:20:00Z,digest@news.example,"Renewal reminder, action needed",630,false
+2025-02-07T14:47:00Z,no-reply@shop.example,Your order has shipped,56,true
+2025-02-07T07:50:00Z,no-reply@shop.example,"Standup notes, 14 May",96,false
+2025-02-07T18:32:00Z,digest@news.example,"She said ""ship it"" — so we did",535,false
+2025-02-07T07:08:00Z,no-reply@shop.example,"Re: invoice #2291, revised",688,false
+2025-02-08T17:43:00Z,no-reply@shop.example,Your order has shipped,290,false
+2025-02-08T17:18:00Z,team@work.example,Weekly digest,352,false
+2025-02-08T10:50:00Z,billing@acme.test,Weekly digest,727,false
+2025-02-08T11:45:00Z,billing@acme.test,Re: Re: lunch?,285,false
+2025-02-08T22:17:00Z,digest@news.example,"Standup notes, 14 May",486,false
+2025-02-09T16:13:00Z,billing@acme.test,"She said ""ship it"" — so we did",243,false
+2025-02-09T21:08:00Z,digest@news.example,Re: Re: lunch?,172,false
+2025-02-10T12:41:00Z,no-reply@shop.example,"Re: invoice #2291, revised",502,false
+2025-02-10T16:45:00Z,no-reply@shop.example,"Renewal reminder, action needed",489,true
+2025-02-10T17:21:00Z,digest@news.example,"Renewal reminder, action needed",105,true
+2025-02-10T13:32:00Z,billing@acme.test,Re: Re: lunch?,411,false
+2025-02-11T22:01:00Z,team@work.example,"Re: invoice #2291, revised",663,true
+2025-02-11T21:22:00Z,digest@news.example,"Renewal reminder, action needed",709,false
+2025-02-11T17:16:00Z,no-reply@shop.example,Your order has shipped,756,false
+2025-02-11T17:31:00Z,digest@news.example,"Re: invoice #2291, revised",74,false
+2025-02-12T06:26:00Z,billing@acme.test,Re: Re: lunch?,596,false
+2025-02-12T16:29:00Z,billing@acme.test,"Re: invoice #2291, revised",137,true
+2025-02-12T16:24:00Z,digest@news.example,"Standup notes, 14 May",350,true
+2025-02-12T15:07:00Z,digest@news.example,"She said ""ship it"" — so we did",342,false
+2025-02-13T17:18:00Z,no-reply@shop.example,"Standup notes, 14 May",292,false
+2025-02-13T14:07:00Z,team@work.example,"Renewal reminder, action needed",669,true
+2025-02-14T15:00:00Z,digest@news.example,"Renewal reminder, action needed",71,false
+2025-02-14T19:08:00Z,no-reply@shop.example,"Renewal reminder, action needed",308,true
+2025-02-14T22:38:00Z,billing@acme.test,Your order has shipped,596,false
+2025-02-14T15:39:00Z,digest@news.example,"Renewal reminder, action needed",530,false
+2025-02-15T15:32:00Z,billing@acme.test,"Re: invoice #2291, revised",433,true
+2025-02-15T20:25:00Z,no-reply@shop.example,"Renewal reminder, action needed",742,false
+2025-02-15T20:10:00Z,team@work.example,"She said ""ship it"" — so we did",350,true
+2025-02-16T21:01:00Z,billing@acme.test,"Renewal reminder, action needed",781,true
+2025-02-16T07:33:00Z,billing@acme.test,Re: Re: lunch?,303,false
+2025-02-16T11:31:00Z,digest@news.example,"Re: invoice #2291, revised",608,true
+2025-02-16T22:26:00Z,billing@acme.test,"Standup notes, 14 May",837,false
+2025-02-17T10:15:00Z,digest@news.example,"Renewal reminder, action needed",844,false
+2025-02-18T11:10:00Z,no-reply@shop.example,Re: Re: lunch?,831,false
+2025-02-18T19:51:00Z,team@work.example,Weekly digest,605,false
+2025-02-18T07:26:00Z,digest@news.example,Your order has shipped,323,false
+2025-02-18T12:22:00Z,team@work.example,Re: Re: lunch?,535,false
+2025-02-18T17:05:00Z,billing@acme.test,"She said ""ship it"" — so we did",391,true
+2025-02-19T08:47:00Z,digest@news.example,"Re: invoice #2291, revised",614,true
+2025-02-19T16:37:00Z,digest@news.example,"She said ""ship it"" — so we did",819,false
+2025-02-20T06:16:00Z,digest@news.example,Weekly digest,210,false
+2025-02-20T18:02:00Z,digest@news.example,Re: Re: lunch?,845,true
+2025-02-21T20:16:00Z,billing@acme.test,"Renewal reminder, action needed",221,false
+2025-02-21T22:49:00Z,digest@news.example,"Renewal reminder, action needed",204,false
+2025-02-21T07:30:00Z,billing@acme.test,"Renewal reminder, action needed",46,false
+2025-02-21T08:21:00Z,no-reply@shop.example,"Standup notes, 14 May",598,false
+2025-02-22T21:06:00Z,digest@news.example,Your order has shipped,316,false
+2025-02-22T10:02:00Z,team@work.example,"Re: invoice #2291, revised",405,false
+2025-02-22T22:48:00Z,digest@news.example,Re: Re: lunch?,314,false
+2025-02-22T15:06:00Z,no-reply@shop.example,"Re: invoice #2291, revised",539,false
+2025-02-22T07:43:00Z,billing@acme.test,Re: Re: lunch?,554,true
+2025-02-23T17:08:00Z,billing@acme.test,"Standup notes, 14 May",169,false
+2025-02-23T17:43:00Z,team@work.example,Re: Re: lunch?,368,true
+2025-02-23T10:38:00Z,billing@acme.test,"Re: invoice #2291, revised",641,false
+2025-02-24T06:33:00Z,team@work.example,"She said ""ship it"" — so we did",150,true
+2025-02-24T22:27:00Z,team@work.example,"Renewal reminder, action needed",267,false
+2025-02-25T10:56:00Z,digest@news.example,"Standup notes, 14 May",215,false
+2025-02-25T19:44:00Z,digest@news.example,"She said ""ship it"" — so we did",227,false
+2025-02-26T09:27:00Z,team@work.example,Weekly digest,537,false
+2025-02-26T10:43:00Z,no-reply@shop.example,"Renewal reminder, action needed",126,false
+2025-02-26T12:51:00Z,team@work.example,Your order has shipped,613,true
+2025-02-26T06:44:00Z,digest@news.example,"Standup notes, 14 May",492,false
+2025-02-27T16:14:00Z,digest@news.example,"Re: invoice #2291, revised",302,false
+2025-02-28T07:06:00Z,billing@acme.test,"Standup notes, 14 May",99,true
+2025-03-01T22:59:00Z,digest@news.example,Your order has shipped,597,true
+2025-03-01T20:39:00Z,no-reply@shop.example,"Standup notes, 14 May",357,true
+2025-03-01T06:03:00Z,digest@news.example,Re: Re: lunch?,797,false
+2025-03-01T19:19:00Z,digest@news.example,"Renewal reminder, action needed",191,true
+2025-03-01T06:11:00Z,team@work.example,Your order has shipped,39,true
+2025-03-02T14:46:00Z,no-reply@shop.example,"Re: invoice #2291, revised",161,false
+2025-03-02T16:02:00Z,no-reply@shop.example,Weekly digest,342,false
+2025-03-03T17:33:00Z,no-reply@shop.example,"She said ""ship it"" — so we did",848,false
+2025-03-03T17:59:00Z,team@work.example,"Standup notes, 14 May",776,false
+2025-03-03T22:08:00Z,no-reply@shop.example,"She said ""ship it"" — so we did",253,false
+2025-03-03T14:16:00Z,no-reply@shop.example,"Renewal reminder, action needed",444,false
+2025-03-03T15:00:00Z,no-reply@shop.example,"Standup notes, 14 May",352,false
+2025-03-04T15:52:00Z,no-reply@shop.example,"Standup notes, 14 May",147,true
+2025-03-04T10:23:00Z,digest@news.example,"Re: invoice #2291, revised",429,false
+2025-03-04T11:11:00Z,digest@news.example,Your order has shipped,158,false
+2025-03-04T12:46:00Z,team@work.example,"She said ""ship it"" — so we did",604,true
+2025-03-04T18:18:00Z,digest@news.example,"Re: invoice #2291, revised",653,true
+2025-03-05T16:49:00Z,billing@acme.test,"Standup notes, 14 May",495,false
+2025-03-05T16:05:00Z,team@work.example,Re: Re: lunch?,33,false
+2025-03-05T18:32:00Z,no-reply@shop.example,Re: Re: lunch?,641,false
+2025-03-05T20:49:00Z,billing@acme.test,"Standup notes, 14 May",277,true
+2025-03-06T06:57:00Z,no-reply@shop.example,"Renewal reminder, action needed",561,false
+2025-03-06T15:01:00Z,team@work.example,"Standup notes, 14 May",284,true
+2025-03-06T09:37:00Z,digest@news.example,"Renewal reminder, action needed",336,true
+2025-03-06T07:02:00Z,digest@news.example,Your order has shipped,620,false
+2025-03-06T10:40:00Z,billing@acme.test,Weekly digest,133,false
+2025-03-07T15:20:00Z,billing@acme.test,Re: Re: lunch?,240,true
+2025-03-07T12:15:00Z,team@work.example,Weekly digest,291,false
+2025-03-08T16:44:00Z,billing@acme.test,Your order has shipped,562,false
+2025-03-08T09:34:00Z,team@work.example,"She said ""ship it"" — so we did",694,false
+2025-03-08T07:08:00Z,team@work.example,"Re: invoice #2291, revised",74,true
+2025-03-09T14:55:00Z,billing@acme.test,"Renewal reminder, action needed",556,false
+2025-03-11T12:05:00Z,team@work.example,"Re: invoice #2291, revised",627,true
+2025-03-11T09:47:00Z,digest@news.example,"Re: invoice #2291, revised",189,false
+2025-03-11T15:51:00Z,team@work.example,Your order has shipped,340,false
+2025-03-11T14:20:00Z,digest@news.example,"Re: invoice #2291, revised",455,false
+2025-03-12T07:07:00Z,digest@news.example,"Renewal reminder, action needed",62,true
+2025-03-12T13:08:00Z,digest@news.example,"Renewal reminder, action needed",592,true
+2025-03-12T19:50:00Z,no-reply@shop.example,"Renewal reminder, action needed",573,false
+2025-03-12T19:35:00Z,no-reply@shop.example,"Re: invoice #2291, revised",477,true
+2025-03-13T21:36:00Z,no-reply@shop.example,"Standup notes, 14 May",150,false
+2025-03-14T20:02:00Z,billing@acme.test,"Renewal reminder, action needed",468,false
+2025-03-14T22:25:00Z,billing@acme.test,"Standup notes, 14 May",573,false
+2025-03-14T22:54:00Z,billing@acme.test,"Re: invoice #2291, revised",238,true
+2025-03-15T12:54:00Z,no-reply@shop.example,Re: Re: lunch?,12,false
+2025-03-15T16:19:00Z,team@work.example,Your order has shipped,444,false
+2025-03-16T06:22:00Z,team@work.example,Re: Re: lunch?,393,false
+2025-03-16T15:17:00Z,team@work.example,Your order has shipped,312,false
+2025-03-16T22:34:00Z,team@work.example,"Renewal reminder, action needed",576,true
+2025-03-16T22:41:00Z,team@work.example,"Re: invoice #2291, revised",714,false
+2025-03-19T16:10:00Z,no-reply@shop.example,Your order has shipped,592,false
+2025-03-19T08:23:00Z,team@work.example,"Standup notes, 14 May",774,false
+2025-03-20T12:31:00Z,digest@news.example,Weekly digest,159,false
+2025-03-20T16:57:00Z,digest@news.example,Weekly digest,834,false
+2025-03-20T12:46:00Z,billing@acme.test,Re: Re: lunch?,667,false
+2025-03-20T10:35:00Z,no-reply@shop.example,"She said ""ship it"" — so we did",15,false
+2025-03-20T11:14:00Z,digest@news.example,Re: Re: lunch?,161,true
+2025-03-21T12:03:00Z,digest@news.example,Re: Re: lunch?,157,false
+2025-03-21T20:45:00Z,billing@acme.test,"Standup notes, 14 May",685,true
+2025-03-21T12:35:00Z,team@work.example,Your order has shipped,293,true
+2025-03-22T14:15:00Z,billing@acme.test,Re: Re: lunch?,165,false
+2025-03-23T12:44:00Z,no-reply@shop.example,"She said ""ship it"" — so we did",510,false
+2025-03-23T08:11:00Z,billing@acme.test,"Re: invoice #2291, revised",343,true
+2025-03-23T13:17:00Z,no-reply@shop.example,Weekly digest,715,false
+2025-03-23T19:14:00Z,no-reply@shop.example,"Renewal reminder, action needed",598,false
+2025-03-23T10:49:00Z,billing@acme.test,Re: Re: lunch?,661,false
+2025-03-24T07:13:00Z,team@work.example,"Standup notes, 14 May",716,true
+2025-03-24T15:20:00Z,digest@news.example,Weekly digest,267,false
+2025-03-25T14:21:00Z,team@work.example,"Re: invoice #2291, revised",84,false
+2025-03-25T11:38:00Z,billing@acme.test,"Renewal reminder, action needed",224,true
+2025-03-26T18:09:00Z,no-reply@shop.example,Your order has shipped,789,false
+2025-03-27T12:36:00Z,billing@acme.test,Your order has shipped,133,true
+2025-03-27T20:17:00Z,billing@acme.test,"Re: invoice #2291, revised",710,false
+2025-03-28T13:41:00Z,no-reply@shop.example,"Standup notes, 14 May",592,true
+2025-03-28T09:19:00Z,billing@acme.test,"Renewal reminder, action needed",693,false
+2025-03-28T21:16:00Z,no-reply@shop.example,"Re: invoice #2291, revised",414,false
+2025-03-29T08:11:00Z,billing@acme.test,"Re: invoice #2291, revised",118,true
+2025-03-29T21:20:00Z,digest@news.example,"Standup notes, 14 May",684,false
+2025-03-29T20:01:00Z,digest@news.example,Weekly digest,207,true
+2025-03-29T14:33:00Z,digest@news.example,"Standup notes, 14 May",569,true
+2025-03-30T21:52:00Z,no-reply@shop.example,"Re: invoice #2291, revised",474,false
+2025-04-01T11:10:00Z,team@work.example,"Renewal reminder, action needed",236,true
+2025-04-01T18:40:00Z,team@work.example,"Renewal reminder, action needed",111,true
+2025-04-01T14:12:00Z,no-reply@shop.example,Weekly digest,324,false
+2025-04-02T09:51:00Z,team@work.example,Your order has shipped,519,false
+2025-04-03T14:32:00Z,billing@acme.test,Your order has shipped,333,false
+2025-04-03T18:00:00Z,billing@acme.test,"Standup notes, 14 May",638,false
+2025-04-04T14:53:00Z,team@work.example,"Re: invoice #2291, revised",545,false
+2025-04-04T13:52:00Z,team@work.example,"Renewal reminder, action needed",587,false
+2025-04-04T12:22:00Z,digest@news.example,"Standup notes, 14 May",102,true
+2025-04-05T11:33:00Z,digest@news.example,Re: Re: lunch?,92,false
+2025-04-05T16:06:00Z,team@work.example,Re: Re: lunch?,837,true
+2025-04-05T09:12:00Z,digest@news.example,Your order has shipped,475,true
+2025-04-05T13:01:00Z,team@work.example,Weekly digest,439,false
+2025-04-06T11:03:00Z,no-reply@shop.example,Re: Re: lunch?,389,false
+2025-04-06T10:17:00Z,billing@acme.test,Weekly digest,115,false
+2025-04-07T16:16:00Z,billing@acme.test,"Re: invoice #2291, revised",694,false
+2025-04-07T11:09:00Z,billing@acme.test,"Renewal reminder, action needed",323,true
+2025-04-07T07:56:00Z,no-reply@shop.example,"She said ""ship it"" — so we did",247,false
+2025-04-08T09:01:00Z,team@work.example,"Standup notes, 14 May",638,false
+2025-04-08T12:13:00Z,digest@news.example,"Standup notes, 14 May",723,false
+2025-04-09T21:44:00Z,digest@news.example,Your order has shipped,232,false
+2025-04-09T07:01:00Z,billing@acme.test,"Renewal reminder, action needed",115,false
+2025-04-09T16:05:00Z,no-reply@shop.example,"Renewal reminder, action needed",536,false
+2025-04-09T21:29:00Z,team@work.example,"She said ""ship it"" — so we did",732,true
+2025-04-10T11:27:00Z,no-reply@shop.example,Re: Re: lunch?,394,true
+2025-04-10T14:45:00Z,no-reply@shop.example,"Standup notes, 14 May",228,false
+2025-04-11T15:14:00Z,team@work.example,"Renewal reminder, action needed",492,true
+2025-04-11T20:40:00Z,no-reply@shop.example,Your order has shipped,658,false
+2025-04-13T11:15:00Z,digest@news.example,"Renewal reminder, action needed",391,true
+2025-04-13T16:07:00Z,billing@acme.test,"She said ""ship it"" — so we did",658,true
+2025-04-13T14:49:00Z,digest@news.example,Re: Re: lunch?,746,false
+2025-04-13T14:32:00Z,team@work.example,"Renewal reminder, action needed",794,false
+2025-04-13T19:25:00Z,team@work.example,"Re: invoice #2291, revised",194,false
+2025-04-14T17:48:00Z,digest@news.example,Re: Re: lunch?,781,false
+2025-04-14T17:39:00Z,team@work.example,"Renewal reminder, action needed",225,false
+2025-04-14T12:33:00Z,billing@acme.test,"Re: invoice #2291, revised",36,false
+2025-04-14T14:28:00Z,digest@news.example,"Renewal reminder, action needed",549,true
+2025-04-15T08:54:00Z,no-reply@shop.example,Your order has shipped,530,false
+2025-04-15T13:55:00Z,team@work.example,Weekly digest,209,false
+2025-04-15T17:12:00Z,team@work.example,Your order has shipped,737,false
+2025-04-15T08:03:00Z,team@work.example,"Renewal reminder, action needed",471,false
+2025-04-15T15:23:00Z,billing@acme.test,"Renewal reminder, action needed",105,false
+2025-04-16T14:40:00Z,no-reply@shop.example,"She said ""ship it"" — so we did",382,true
+2025-04-16T22:16:00Z,billing@acme.test,"Re: invoice #2291, revised",797,false
+2025-04-16T21:29:00Z,digest@news.example,Weekly digest,558,true
+2025-04-16T14:35:00Z,billing@acme.test,"Renewal reminder, action needed",798,true
+2025-04-16T18:35:00Z,billing@acme.test,"Renewal reminder, action needed",694,false
+2025-04-18T15:14:00Z,no-reply@shop.example,"Standup notes, 14 May",819,false
+2025-04-18T13:07:00Z,no-reply@shop.example,"Standup notes, 14 May",514,false
+2025-04-18T15:43:00Z,digest@news.example,Your order has shipped,642,true
+2025-04-18T07:26:00Z,team@work.example,"She said ""ship it"" — so we did",621,true
+2025-04-18T20:59:00Z,team@work.example,"Standup notes, 14 May",48,false
+2025-04-19T07:12:00Z,digest@news.example,"Renewal reminder, action needed",740,false
+2025-04-19T19:45:00Z,team@work.example,"Standup notes, 14 May",463,false
+2025-04-19T09:14:00Z,no-reply@shop.example,"She said ""ship it"" — so we did",222,false
+2025-04-19T18:01:00Z,no-reply@shop.example,Your order has shipped,837,false
+2025-04-19T19:14:00Z,team@work.example,Re: Re: lunch?,453,true
+2025-04-20T20:02:00Z,no-reply@shop.example,Your order has shipped,822,false
+2025-04-20T08:00:00Z,billing@acme.test,Your order has shipped,503,true
+2025-04-20T14:22:00Z,team@work.example,"Re: invoice #2291, revised",700,false
+2025-04-21T07:04:00Z,billing@acme.test,"Standup notes, 14 May",840,false
+2025-04-21T09:07:00Z,billing@acme.test,"Renewal reminder, action needed",303,false
+2025-04-21T08:59:00Z,billing@acme.test,"Standup notes, 14 May",515,false
+2025-04-21T18:25:00Z,team@work.example,Re: Re: lunch?,777,false
+2025-04-22T21:04:00Z,billing@acme.test,Your order has shipped,13,false
+2025-04-22T11:39:00Z,team@work.example,Your order has shipped,736,false
+2025-04-22T14:14:00Z,team@work.example,"She said ""ship it"" — so we did",329,true
+2025-04-22T10:24:00Z,no-reply@shop.example,"Re: invoice #2291, revised",521,false
+2025-04-24T17:42:00Z,no-reply@shop.example,Weekly digest,790,false
+2025-04-24T13:35:00Z,no-reply@shop.example,"Re: invoice #2291, revised",171,false
+2025-04-25T21:56:00Z,no-reply@shop.example,Re: Re: lunch?,740,true
+2025-04-25T11:26:00Z,digest@news.example,Your order has shipped,345,true
+2025-04-25T14:47:00Z,billing@acme.test,"She said ""ship it"" — so we did",567,false
+2025-04-25T15:17:00Z,digest@news.example,"Standup notes, 14 May",197,false
+2025-04-25T19:47:00Z,billing@acme.test,"Renewal reminder, action needed",341,true
+2025-04-26T19:00:00Z,digest@news.example,"She said ""ship it"" — so we did",587,false
+2025-04-26T15:43:00Z,no-reply@shop.example,"Re: invoice #2291, revised",512,true
+2025-04-26T17:09:00Z,billing@acme.test,"Re: invoice #2291, revised",790,true
+2025-04-27T20:13:00Z,team@work.example,"Re: invoice #2291, revised",161,true
+2025-04-27T21:45:00Z,digest@news.example,Re: Re: lunch?,185,false
+2025-04-28T17:00:00Z,no-reply@shop.example,Re: Re: lunch?,634,false
+2025-04-28T12:28:00Z,digest@news.example,Re: Re: lunch?,521,true
+2025-04-28T12:45:00Z,no-reply@shop.example,"Renewal reminder, action needed",17,true
+2025-04-28T12:14:00Z,billing@acme.test,"Re: invoice #2291, revised",136,false
+2025-04-29T10:43:00Z,billing@acme.test,Re: Re: lunch?,70,true
+2025-04-29T21:09:00Z,no-reply@shop.example,"Standup notes, 14 May",818,false
+2025-04-29T17:16:00Z,no-reply@shop.example,Your order has shipped,618,false
+2025-04-29T13:48:00Z,billing@acme.test,Weekly digest,271,true
+2025-04-30T22:03:00Z,digest@news.example,"Re: invoice #2291, revised",601,true
+2025-05-01T21:19:00Z,digest@news.example,Re: Re: lunch?,134,false
+2025-05-01T17:06:00Z,billing@acme.test,Your order has shipped,144,true
+2025-05-01T06:26:00Z,team@work.example,"Re: invoice #2291, revised",101,false
+2025-05-01T16:43:00Z,team@work.example,Weekly digest,692,false
+2025-05-01T15:36:00Z,digest@news.example,Re: Re: lunch?,59,false
+2025-05-02T06:18:00Z,billing@acme.test,Your order has shipped,42,true
+2025-05-02T10:13:00Z,team@work.example,"Re: invoice #2291, revised",836,false
+2025-05-02T09:38:00Z,team@work.example,Re: Re: lunch?,751,false
+2025-05-03T14:53:00Z,digest@news.example,"Re: invoice #2291, revised",586,false
+2025-05-03T09:12:00Z,no-reply@shop.example,Re: Re: lunch?,795,true
+2025-05-03T18:23:00Z,team@work.example,"Standup notes, 14 May",305,true
+2025-05-03T13:06:00Z,no-reply@shop.example,Re: Re: lunch?,352,true
+2025-05-04T07:23:00Z,digest@news.example,"Renewal reminder, action needed",219,true
+2025-05-04T20:28:00Z,billing@acme.test,Weekly digest,98,false
+2025-05-04T21:12:00Z,team@work.example,"Renewal reminder, action needed",319,true
+2025-05-04T07:08:00Z,billing@acme.test,Weekly digest,214,false
+2025-05-04T09:42:00Z,digest@news.example,"Re: invoice #2291, revised",629,false
+2025-05-06T09:54:00Z,digest@news.example,Your order has shipped,580,false
+2025-05-07T16:09:00Z,no-reply@shop.example,Weekly digest,515,false
+2025-05-07T07:37:00Z,billing@acme.test,"Re: invoice #2291, revised",282,true
+2025-05-07T10:33:00Z,digest@news.example,Weekly digest,302,false
+2025-05-07T07:38:00Z,billing@acme.test,"Standup notes, 14 May",10,true
+2025-05-08T19:20:00Z,billing@acme.test,Your order has shipped,219,false
+2025-05-08T12:03:00Z,no-reply@shop.example,"She said ""ship it"" — so we did",419,true
+2025-05-08T06:08:00Z,no-reply@shop.example,"She said ""ship it"" — so we did",271,false
+2025-05-08T18:34:00Z,billing@acme.test,Weekly digest,423,false
+2025-05-08T15:58:00Z,no-reply@shop.example,Your order has shipped,485,false
+2025-05-09T18:50:00Z,no-reply@shop.example,"She said ""ship it"" — so we did",233,true
+2025-05-09T15:11:00Z,no-reply@shop.example,"Standup notes, 14 May",113,false
+2025-05-09T08:48:00Z,team@work.example,"Re: invoice #2291, revised",2,false
+2025-05-10T06:58:00Z,billing@acme.test,"Standup notes, 14 May",249,true
+2025-05-11T08:38:00Z,billing@acme.test,Re: Re: lunch?,276,true
+2025-05-11T08:39:00Z,billing@acme.test,"Renewal reminder, action needed",145,false
+2025-05-11T15:32:00Z,billing@acme.test,"Renewal reminder, action needed",131,false
+2025-05-12T17:59:00Z,team@work.example,"Standup notes, 14 May",202,true
+2025-05-12T16:57:00Z,billing@acme.test,"Re: invoice #2291, revised",657,false
+2025-05-12T07:28:00Z,digest@news.example,Your order has shipped,740,false
+2025-05-12T20:00:00Z,digest@news.example,"She said ""ship it"" — so we did",145,false
+2025-05-13T15:30:00Z,billing@acme.test,"Renewal reminder, action needed",258,false
+2025-05-13T22:31:00Z,no-reply@shop.example,"She said ""ship it"" — so we did",191,false
+2025-05-14T14:39:00Z,no-reply@shop.example,"Standup notes, 14 May",40,true
+2025-05-15T10:08:00Z,team@work.example,Re: Re: lunch?,643,false
+2025-05-15T21:53:00Z,billing@acme.test,Your order has shipped,23,false
+2025-05-15T12:07:00Z,team@work.example,"Renewal reminder, action needed",755,false
+2025-05-16T07:49:00Z,team@work.example,"Re: invoice #2291, revised",524,false
+2025-05-17T18:03:00Z,no-reply@shop.example,"Renewal reminder, action needed",510,true
+2025-05-18T20:01:00Z,team@work.example,Re: Re: lunch?,762,false
+2025-05-18T18:31:00Z,no-reply@shop.example,Weekly digest,827,false
+2025-05-18T08:20:00Z,digest@news.example,"Standup notes, 14 May",107,false
+2025-05-18T20:55:00Z,no-reply@shop.example,"Standup notes, 14 May",249,true
+2025-05-18T15:21:00Z,billing@acme.test,"Renewal reminder, action needed",489,false
+2025-05-19T07:05:00Z,team@work.example,"Renewal reminder, action needed",328,false
+2025-05-19T09:08:00Z,no-reply@shop.example,"She said ""ship it"" — so we did",180,false
+2025-05-19T07:13:00Z,no-reply@shop.example,"Re: invoice #2291, revised",722,false
+2025-05-20T16:23:00Z,team@work.example,"Renewal reminder, action needed",676,false
+2025-05-20T08:41:00Z,no-reply@shop.example,"Renewal reminder, action needed",268,true
+2025-05-20T16:03:00Z,team@work.example,"Renewal reminder, action needed",626,false
+2025-05-21T08:22:00Z,digest@news.example,"Re: invoice #2291, revised",628,false
+2025-05-22T11:17:00Z,no-reply@shop.example,Re: Re: lunch?,155,false
+2025-05-22T17:24:00Z,no-reply@shop.example,Weekly digest,390,false
+2025-05-23T14:26:00Z,digest@news.example,"Re: invoice #2291, revised",306,false
+2025-05-23T12:38:00Z,no-reply@shop.example,"Standup notes, 14 May",699,false
+2025-05-23T22:54:00Z,no-reply@shop.example,Your order has shipped,474,false
+2025-05-23T16:15:00Z,digest@news.example,Re: Re: lunch?,185,false
+2025-05-25T19:45:00Z,no-reply@shop.example,"Re: invoice #2291, revised",383,false
+2025-05-25T21:26:00Z,no-reply@shop.example,"Renewal reminder, action needed",173,true
+2025-05-25T10:32:00Z,billing@acme.test,Re: Re: lunch?,552,false
+2025-05-25T11:04:00Z,team@work.example,Your order has shipped,360,false
+2025-05-26T16:33:00Z,digest@news.example,"Renewal reminder, action needed",330,false
+2025-05-28T20:16:00Z,team@work.example,Re: Re: lunch?,731,true
+2025-05-28T13:03:00Z,no-reply@shop.example,"She said ""ship it"" — so we did",394,false
+2025-05-29T13:42:00Z,billing@acme.test,Weekly digest,16,true
+2025-05-29T18:55:00Z,team@work.example,Your order has shipped,518,true
+2025-05-29T07:55:00Z,digest@news.example,Your order has shipped,572,false
+2025-05-29T13:16:00Z,digest@news.example,"Standup notes, 14 May",430,false
+2025-05-30T14:49:00Z,digest@news.example,"She said ""ship it"" — so we did",663,false
+2025-05-30T14:12:00Z,digest@news.example,"Re: invoice #2291, revised",290,false
+2025-05-30T18:19:00Z,no-reply@shop.example,"Re: invoice #2291, revised",788,false
+2025-05-30T13:23:00Z,team@work.example,Re: Re: lunch?,422,true

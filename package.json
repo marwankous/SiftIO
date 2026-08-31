@@ -1,0 +1,41 @@
+{
+  "name": "siftio",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "npm run clean && node scripts/stamp.mjs && ng build && node scripts/verify-build.mjs",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "clean": "node -e \"const f=require('fs');for(const d of ['.angular/cache','dist'])f.rmSync(d,{recursive:true,force:true})\"",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "private": true,
+  "packageManager": "npm@11.19.0",
+  "dependencies": {
+    "@angular/common": "^21.2.0",
+    "@angular/compiler": "^21.2.0",
+    "@angular/core": "^21.2.0",
+    "@angular/forms": "^21.2.0",
+    "@angular/platform-browser": "^21.2.0",
+    "@angular/router": "^21.2.0",
+    "@duckdb/duckdb-wasm": "^1.33.1-dev57.0",
+    "chart.js": "^4.5.1",
+    "idb-keyval": "^6.3.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^21.2.22",
+    "@angular/cli": "^21.2.22",
+    "@angular/compiler-cli": "^21.2.0",
+    "@tailwindcss/postcss": "^4.1.12",
+    "jsdom": "^28.0.0",
+    "postcss": "^8.5.3",
+    "prettier": "^3.8.1",
+    "tailwindcss": "^4.1.12",
+    "typescript": "~5.9.2",
+    "vitest": "^4.0.8",
+    "wrangler": "^4.127.1"
+  }
+}
